@@ -24,7 +24,8 @@ const _itemExtent = 56.0; // ارتفاع كرت القناة + المسافة
 class Channel {
   final String name;
   final String url;
-  Channel(this.name, this.url);
+  final String? group; // عنوان القسم (للقنوات التلقائية فقط)
+  Channel(this.name, this.url, [this.group]);
 }
 
 /// مكان ملف القنوات على GitHub (عدّل اسم الحساب/الريبو إذا اختلف).
@@ -63,6 +64,28 @@ Future<List<Channel>> loadChannels() async {
   }
   final text = await rootBundle.loadString('assets/channels.txt');
   return parseChannelsText(text);
+}
+
+/// القنوات التلقائية (يحدّثها السكربت) — تظهر تحت اليدوية بأقسام.
+Future<List<Channel>> loadAutoChannels() async {
+  String? text = await _fetchRemote('$repoRawBase/assets/auto_channels.json');
+  if (text == null) {
+    try {
+      text = await rootBundle.loadString('assets/auto_channels.json');
+    } catch (_) {
+      return [];
+    }
+  }
+  try {
+    final list = jsonDecode(text) as List;
+    return list
+        .map((e) => Channel('${e['name']}', '${e['url']}',
+            e['group']?.toString() ?? 'قنوات إضافية (تحديث تلقائي)'))
+        .where((c) => c.name.isNotEmpty && c.url.startsWith('http'))
+        .toList();
+  } catch (_) {
+    return [];
+  }
 }
 
 // =====================================================================
@@ -113,7 +136,9 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  List<Channel> channels = [];
+  List<Channel> channels = []; // يدوية
+  List<Channel> autoChannels = []; // تلقائية (تحت اليدوية)
+  List<Channel> get allChannels => [...channels, ...autoChannels];
   int current = -1;
   bool menuOpen = false;
   bool qOpen = false;
@@ -145,6 +170,9 @@ class _HomePageState extends State<HomePage> {
         _play(0);
       }
     });
+    loadAutoChannels().then((c) {
+      if (mounted) setState(() => autoChannels = c);
+    });
   }
 
   @override
@@ -162,13 +190,28 @@ class _HomePageState extends State<HomePage> {
   }
 
   // ---------- القائمة ----------
+  /// صفوف القائمة: رقم = قناة، نص = عنوان قسم
+  List<Object> _rows() {
+    final all = allChannels;
+    final rows = <Object>[];
+    String? lastGroup;
+    for (var k = 0; k < all.length; k++) {
+      final g = all[k].group;
+      if (g != null && g != lastGroup) rows.add(g);
+      lastGroup = g;
+      rows.add(k);
+    }
+    return rows;
+  }
+
   void _openMenu() {
     if (menuOpen) return;
     listCtrl?.dispose();
     activeNode?.dispose();
     focusIndex = current < 0 ? 0 : current;
+    final pos = math.max(0, _rows().indexOf(focusIndex));
     listCtrl = ScrollController(
-      initialScrollOffset: math.max(0, focusIndex * _itemExtent - 160),
+      initialScrollOffset: math.max(0, pos * _itemExtent - 160),
     );
     activeNode = FocusNode(debugLabel: 'active-card');
     setState(() => menuOpen = true);
@@ -226,14 +269,15 @@ class _HomePageState extends State<HomePage> {
 
   // ---------- تشغيل قناة ----------
   Future<void> _play(int i) async {
-    if (i < 0 || i >= channels.length) return;
+    final all = allChannels;
+    if (i < 0 || i >= all.length) return;
     final token = ++_playToken;
     setState(() {
       current = i;
       localMsg = null;
     });
     _startHideTimer();
-    var url = channels[i].url;
+    var url = all[i].url;
     if (isYoutubeUrl(url)) {
       setState(() => localMsg = 'جاري تحميل بث يوتيوب...');
       final resolved = await resolveYoutube(url);
@@ -348,18 +392,27 @@ class _HomePageState extends State<HomePage> {
                 color: Color(0xD9000000),
                 border: Border(left: BorderSide(color: Color(0x1AFFFFFF))),
               ),
-              child: ListView.builder(
-                controller: listCtrl,
-                itemExtent: _itemExtent,
-                itemCount: channels.length,
-                itemBuilder: (_, i) => _ChannelCard(
-                  number: i + 1,
-                  name: channels[i].name,
-                  active: i == current,
-                  focusNode: i == focusIndex ? activeNode : null,
-                  onTap: () => _play(i),
-                ),
-              ),
+              child: Builder(builder: (_) {
+                final all = allChannels;
+                final rows = _rows();
+                return ListView.builder(
+                  controller: listCtrl,
+                  itemExtent: _itemExtent,
+                  itemCount: rows.length,
+                  itemBuilder: (_, pos) {
+                    final row = rows[pos];
+                    if (row is String) return _GroupHeader(title: row);
+                    final i = row as int;
+                    return _ChannelCard(
+                      number: i + 1,
+                      name: all[i].name,
+                      active: i == current,
+                      focusNode: i == focusIndex ? activeNode : null,
+                      onTap: () => _play(i),
+                    );
+                  },
+                );
+              }),
             ),
           ),
         ),
@@ -458,6 +511,33 @@ class _HomePageState extends State<HomePage> {
 // =====================================================================
 //  عناصر الواجهة (نفس تصميم الويب)
 // =====================================================================
+
+class _GroupHeader extends StatelessWidget {
+  final String title;
+  const _GroupHeader({required this.title});
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(top: 14, bottom: 6),
+      child: Row(children: [
+        const Expanded(child: Divider(color: Color(0x33FFFFFF))),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 8),
+          child: Text(
+            title,
+            style: const TextStyle(
+              fontSize: 12,
+              fontWeight: FontWeight.w700,
+              color: Color(0xFF9A9A9A),
+            ),
+          ),
+        ),
+        const Expanded(child: Divider(color: Color(0x33FFFFFF))),
+      ]),
+    );
+  }
+}
 
 class _ChannelCard extends StatefulWidget {
   final int number;
