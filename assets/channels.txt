@@ -1,7 +1,11 @@
+قناة كربلاء الفضائية
+https://h1001.hibridcdn.net/karbala/karbalatv_w82qc0GT1o2qt9wVgjkX7YDJP8Hz7UXN/karbala/karbalatv_240p/chunks.m3u8
 كربلاء القران الكريم
 https://ktvlive.online/stream/hls/ch1.m3u8
 العراقية
 https://imn-live.esite-lab.com/hls/iraqia-general.m3u8
+العراقية الأخبارية
+https://imn-live.esite-lab.com/hls/iraqia-news.m3u8
 الشرقية
 https://indexforce.com/home/mystream/chunklist_w887163316.m3u8
 الشرقية نيوز
@@ -382,8 +386,6 @@ https://starmenajo.com/hls/yemenshabab/index.m3u8
 https://amg01480-alshallalfze-alshallal-ono-q0hfg.amagi.tv/playlist.m3u8
 الشرقية الأماراتية
 https://svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8
-الوسطى
-https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8
 اليوم
 https://hlspackager.akamaized.net/live/DB/ALYAUM_TV/HLS/ALYAUM_TV.m3u8
 البحرين الرياضية 1
@@ -406,5 +408,3 @@ Inter TV
 https://ilglobotv-live.akamaized.net/channels/InterTV/Live.m3u8
 FIFA +
 https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
-متجر تطبيقات الفحام
-https://www.youtube.com/watch?v=5zkcrzlN10o
