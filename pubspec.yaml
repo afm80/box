@@ -1,0 +1,36 @@
+name: alfaham_box
+description: الفحام بوكس - بث مباشر للقنوات (مشغل بتحكم ريموت)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  video_player: ^2.9.2
+  media_kit: ^1.1.11
+  media_kit_video: ^1.2.5
+  media_kit_libs_video: ^1.0.5
+  http: ^1.2.2
+  google_fonts: ^6.2.1
+  youtube_explode_dart: ^2.3.5
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+
+# أيقونة التطبيق (تُولَّد تلقائياً أثناء البناء من assets/logo.png)
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/logo.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/channels.txt
+    - assets/logo.png
