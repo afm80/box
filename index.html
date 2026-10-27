@@ -35,6 +35,13 @@
             border-radius: 4px; font-size: 13px; font-weight: bold; color: #ccc;
         }
         .ch-name { font-size: 14px; font-weight: 600; }
+        .group-title {
+            display: flex; align-items: center; gap: 10px;
+            margin: 14px 0 6px; color: #9a9a9a; font-size: 12px; font-weight: 700;
+        }
+        .group-title::before, .group-title::after {
+            content: ""; flex: 1; height: 1px; background: rgba(255,255,255,0.15);
+        }
 
         .quality-hq-btn {
             position: absolute; bottom: 30px; left: 30px;
@@ -661,6 +668,36 @@ https://www.youtube.com/watch?v=5zkcrzlN10o
             listDiv.appendChild(card);
             if (i === 0) { play(items[i+1], card); currentActiveCard = card; }
         }
+        // القنوات التلقائية (يحدّثها السكربت) تظهر تحت القنوات اليدوية بأقسام
+        fetch('assets/auto_channels.json', { cache: 'no-cache' })
+            .then(r => r.ok ? r.json() : [])
+            .then(list => {
+                if (!Array.isArray(list)) return;
+                let n = items.length / 2, lastGroup = null;
+                list.forEach(c => {
+                    if (!c || !c.name || !c.url) return;
+                    const g = c.group || 'قنوات إضافية (تحديث تلقائي)';
+                    if (g !== lastGroup) {
+                        const t = document.createElement('div');
+                        t.className = 'group-title';
+                        t.textContent = g;
+                        listDiv.appendChild(t);
+                        lastGroup = g;
+                    }
+                    n++;
+                    const card = document.createElement('div');
+                    card.className = 'channel-card'; card.tabIndex = 0;
+                    const num = document.createElement('span');
+                    num.className = 'ch-num'; num.textContent = n;
+                    const nm = document.createElement('span');
+                    nm.className = 'ch-name'; nm.textContent = c.name;
+                    card.appendChild(num); card.appendChild(nm);
+                    card.onclick = (e) => { e.stopPropagation(); play(String(c.url), card); };
+                    card.onkeydown = (e) => { if (e.key === "Enter") play(String(c.url), card); };
+                    listDiv.appendChild(card);
+                });
+            })
+            .catch(() => {});
         window.onload = () => { openUI(); };
     </script>
 </body>
