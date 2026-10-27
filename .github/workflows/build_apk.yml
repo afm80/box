@@ -49,6 +49,9 @@ jobs:
               t = open(g, encoding='utf-8').read()
               t = re.sub(r'applicationId\s*=?\s*["\'][^"\']*["\']', 'applicationId = "app.alfaham.box"', t)
               open(g, 'w', encoding='utf-8').write(t)
+              assert 'app.alfaham.box' in t, 'applicationId was not patched in ' + g
+
+          assert 'android:label="Alfaham Box"' in open(p, encoding='utf-8').read(), 'app label was not patched'
           PY
 
       - run: flutter pub get
@@ -56,8 +59,13 @@ jobs:
       - name: Generate app icon
         run: dart run flutter_launcher_icons
 
-      - name: Build one universal APK (all devices)
-        run: flutter build apk --release
+      - name: Build one universal APK (all devices, all CPU types)
+        run: flutter build apk --release --target-platform android-arm,android-arm64,android-x64
+
+      - name: Show package name and CPU types inside the APK
+        run: |
+          unzip -l build/app/outputs/flutter-apk/app-release.apk | grep -o 'lib/[^/]*/' | sort -u
+          $ANDROID_HOME/build-tools/$(ls $ANDROID_HOME/build-tools | sort -V | tail -1)/aapt dump badging build/app/outputs/flutter-apk/app-release.apk | grep -E "^package:|application-label:"
 
       - name: Rename APK
         run: mv build/app/outputs/flutter-apk/app-release.apk build/app/outputs/flutter-apk/alfaham-box.apk
