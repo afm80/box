@@ -795,6 +795,11 @@
   "group": "قنوات عربية"
  },
  {
+  "name": "Makan 33",
+  "url": "https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
   "name": "Maraya",
   "url": "https://shd-amg-fast.edgenextcdn.net/tx008/playlist.m3u8",
   "group": "قنوات عربية"
@@ -910,6 +915,16 @@
   "group": "قنوات عربية"
  },
  {
+  "name": "Nour Al Koddass",
+  "url": "https://svs.itworkscdn.net/nour1satlive/livestream/playlist.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
+  "name": "Nour Al Sharq",
+  "url": "https://svs.itworkscdn.net/nour8satlive/livestream/playlist.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
   "name": "Noursat",
   "url": "https://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8",
   "group": "قنوات عربية"
@@ -917,6 +932,11 @@
  {
   "name": "Oman TV Cultural",
   "url": "https://partwota.cdn.mgmlcdn.com/omcultural/smil:omcultural.stream.smil/chunklist.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
+  "name": "Oman TV Mubashir",
+  "url": "https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -965,6 +985,11 @@
   "group": "قنوات عربية"
  },
  {
+  "name": "Qatar Television",
+  "url": "https://live.kwikmotion.com/qtv1live/qtv1.smil/playlist.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
   "name": "Qatar TV The Holy Quran",
   "url": "https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8",
   "group": "قنوات عربية"
@@ -995,13 +1020,13 @@
   "group": "قنوات عربية"
  },
  {
-  "name": "RASD TV",
-  "url": "https://cloud.streamingconnect.tv/hls/rasdtv2/rasdtv.m3u8",
+  "name": "Rashid AlMajed",
+  "url": "https://dphwv2ufgnfsq.cloudfront.net/out/v1/59cd80dfe93a479eb8b4d79bc6f225ca/index.m3u8",
   "group": "قنوات عربية"
  },
  {
-  "name": "Rashid AlMajed",
-  "url": "https://dphwv2ufgnfsq.cloudfront.net/out/v1/59cd80dfe93a479eb8b4d79bc6f225ca/index.m3u8",
+  "name": "Red TV Lebanon",
+  "url": "https://live.kwikmotion.com/redtvlive/redtv.smil/playlist.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -1077,11 +1102,6 @@
  {
   "name": "Shabab FM",
   "url": "https://streaming.zaytonatube.com:8081/ShababFM/shabab/index.m3u8",
-  "group": "قنوات عربية"
- },
- {
-  "name": "Sharjah Radio",
-  "url": "https://svs.itworkscdn.net/smcradiolive/smcradiolive/playlist.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -1552,11 +1572,6 @@
  {
   "name": "Al Jazeera English",
   "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
-  "group": "قنوات عالمية"
- },
- {
-  "name": "Al Jazeera English HD",
-  "url": "http://stream.mcquack.net/131/index.m3u8",
   "group": "قنوات عالمية"
  },
  {
