@@ -930,11 +930,6 @@
   "group": "قنوات عربية"
  },
  {
-  "name": "Oman TV Mubashir",
-  "url": "https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8",
-  "group": "قنوات عربية"
- },
- {
   "name": "One TV",
   "url": "https://hms.pfs.gdn/v1/broadcast/one/playlist.m3u8",
   "group": "قنوات عربية"
@@ -1062,6 +1057,11 @@
  {
   "name": "Safeer TV",
   "url": "https://cdn3.wowza.com/1/YStGZlJRdktzZkdK/VXROZWNW/hls/live/playlist.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
+  "name": "Sahara 24",
+  "url": "https://live.saharamedias.net:3317/live/shara24live.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -1470,6 +1470,11 @@
   "group": "قنوات رياضية"
  },
  {
+  "name": "ESPN Premium (Argentina) HD",
+  "url": "http://158.172.155.130:8000/play/a0ao/index.m3u8",
+  "group": "قنوات رياضية"
+ },
+ {
   "name": "Eurosport 1 Hungary",
   "url": "http://88.212.7.14/live/esp1_hun/index.m3u8",
   "group": "قنوات رياضية"
@@ -1567,6 +1572,11 @@
  {
   "name": "Al Jazeera English",
   "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
+  "group": "قنوات عالمية"
+ },
+ {
+  "name": "Al Jazeera English HD",
+  "url": "http://stream.mcquack.net/131/index.m3u8",
   "group": "قنوات عالمية"
  },
  {
@@ -1900,11 +1910,6 @@
   "group": "قنوات عالمية"
  },
  {
-  "name": "Sky News Urdu",
-  "url": "https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8",
-  "group": "قنوات عالمية"
- },
- {
   "name": "TRT World",
   "url": "https://mumbai-edge.smartplaytv.in/TRTWorld/index.m3u8",
   "group": "قنوات عالمية"
@@ -2015,6 +2020,11 @@
   "group": "قنوات عالمية"
  },
  {
+  "name": "Investigation Discovery (Russia)",
+  "url": "http://stream.mcquack.net/205/index.m3u8",
+  "group": "قنوات عالمية"
+ },
+ {
   "name": "Investigation Discovery (United States)",
   "url": "http://212.5.144.156:8080/id/index.m3u8",
   "group": "قنوات عالمية"
@@ -2062,11 +2072,6 @@
  {
   "name": "Pluto TV History",
   "url": "https://jmp2.uk/plu-5a4d35dfa5c02e717a234f86.m3u8",
-  "group": "قنوات عالمية"
- },
- {
-  "name": "Polsat Viasat History",
-  "url": "http://185.227.34.179:8080/polsat-viasat-history-hd/index.m3u8",
   "group": "قنوات عالمية"
  },
  {
