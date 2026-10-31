@@ -680,6 +680,11 @@
   "group": "قنوات عربية"
  },
  {
+  "name": "Holy Quran Radio Nablus",
+  "url": "http://streaming.zaytonatube.com:8080/holyquran/holyquran/video.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
   "name": "Hya TV",
   "url": "https://freem3u.xyz/api/live/play.m3u8?vid=187",
   "group": "قنوات عربية"
@@ -742,11 +747,6 @@
  {
   "name": "Koogi TV",
   "url": "https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8",
-  "group": "قنوات عربية"
- },
- {
-  "name": "Lana TV",
-  "url": "https://cdn.streamlane.tv/hls/ltv/master.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -930,6 +930,11 @@
   "group": "قنوات عربية"
  },
  {
+  "name": "Oman TV Mubashir",
+  "url": "https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
   "name": "One TV",
   "url": "https://hms.pfs.gdn/v1/broadcast/one/playlist.m3u8",
   "group": "قنوات عربية"
@@ -1100,11 +1105,6 @@
   "group": "قنوات عربية"
  },
  {
-  "name": "Sharjah Radio",
-  "url": "https://svs.itworkscdn.net/smcradiolive/smcradiolive/playlist.m3u8",
-  "group": "قنوات عربية"
- },
- {
   "name": "Sharjah Radio Quran",
   "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8",
   "group": "قنوات عربية"
@@ -1252,11 +1252,6 @@
  {
   "name": "KTV Sport",
   "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8",
-  "group": "قنوات رياضية"
- },
- {
-  "name": "KTV Sport Plus",
-  "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
   "group": "قنوات رياضية"
  },
  {
@@ -1470,7 +1465,7 @@
   "group": "قنوات رياضية"
  },
  {
-  "name": "ESPN Premium (Argentina) HD",
+  "name": "ESPN Premium HD",
   "url": "http://158.172.155.130:8000/play/a0ao/index.m3u8",
   "group": "قنوات رياضية"
  },
@@ -1572,11 +1567,6 @@
  {
   "name": "Al Jazeera English",
   "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
-  "group": "قنوات عالمية"
- },
- {
-  "name": "Al Jazeera English HD",
-  "url": "http://stream.mcquack.net/131/index.m3u8",
   "group": "قنوات عالمية"
  },
  {
@@ -2072,6 +2062,11 @@
  {
   "name": "Pluto TV History",
   "url": "https://jmp2.uk/plu-5a4d35dfa5c02e717a234f86.m3u8",
+  "group": "قنوات عالمية"
+ },
+ {
+  "name": "Polsat Viasat History",
+  "url": "http://185.227.34.179:8080/polsat-viasat-history-hd/index.m3u8",
   "group": "قنوات عالمية"
  },
  {
