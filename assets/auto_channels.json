@@ -310,11 +310,6 @@
   "group": "قنوات عربية"
  },
  {
-  "name": "Al Ittihad TV",
-  "url": "http://185.105.4.151:8080/_defapp_/ittihad/index.m3u8",
-  "group": "قنوات عربية"
- },
- {
   "name": "Al Jadeed",
   "url": "http://185.9.2.18/chid_391/mono.m3u8",
   "group": "قنوات عربية"
@@ -750,6 +745,11 @@
   "group": "قنوات عربية"
  },
  {
+  "name": "Lana TV",
+  "url": "https://cdn.streamlane.tv/hls/ltv/master.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
   "name": "LBC",
   "url": "http://185.9.2.18/chid_327/index.m3u8",
   "group": "قنوات عربية"
@@ -905,11 +905,6 @@
   "group": "قنوات عربية"
  },
  {
-  "name": "Nidae AlIslam Radio",
-  "url": "https://live.kwikmotion.com/sbrksanedaradiolive/srpksanedaradio/playlist.m3u8",
-  "group": "قنوات عربية"
- },
- {
   "name": "Nour Al Koddass",
   "url": "https://svs.itworkscdn.net/nour1satlive/livestream/playlist.m3u8",
   "group": "قنوات عربية"
@@ -927,11 +922,6 @@
  {
   "name": "Oman TV Cultural",
   "url": "https://partwota.cdn.mgmlcdn.com/omcultural/smil:omcultural.stream.smil/chunklist.m3u8",
-  "group": "قنوات عربية"
- },
- {
-  "name": "Oman TV Mubashir",
-  "url": "https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -1065,11 +1055,6 @@
   "group": "قنوات عربية"
  },
  {
-  "name": "Sahara 24",
-  "url": "https://live.saharamedias.net:3317/live/shara24live.m3u8",
-  "group": "قنوات عربية"
- },
- {
   "name": "Sat 7 Arabic",
   "url": "https://svs.itworkscdn.net/sat7arabiclive/sat7arabic.smil/playlist_dvr.m3u8",
   "group": "قنوات عربية"
@@ -1102,6 +1087,11 @@
  {
   "name": "Shabab FM",
   "url": "https://streaming.zaytonatube.com:8081/ShababFM/shabab/index.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
+  "name": "Sharjah Radio",
+  "url": "https://svs.itworkscdn.net/smcradiolive/smcradiolive/playlist.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -1252,6 +1242,11 @@
  {
   "name": "KTV Sport",
   "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8",
+  "group": "قنوات رياضية"
+ },
+ {
+  "name": "KTV Sport Plus",
+  "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
   "group": "قنوات رياضية"
  },
  {
@@ -1440,11 +1435,6 @@
   "group": "قنوات رياضية"
  },
  {
-  "name": "ESPN (United States)",
-  "url": "http://tvsen7.aynascope.net/espn/index.m3u8",
-  "group": "قنوات رياضية"
- },
- {
   "name": "ESPN (United States) HD",
   "url": "http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8",
   "group": "قنوات رياضية"
@@ -1475,18 +1465,8 @@
   "group": "قنوات رياضية"
  },
  {
-  "name": "Eurosport 1 Spain",
-  "url": "http://45.134.141.161:2200/ARG/Eurosport_1_HD/index.m3u8",
-  "group": "قنوات رياضية"
- },
- {
   "name": "Eurosport 2 Hungary",
   "url": "http://88.212.7.14/live/esp2_hun/index.m3u8",
-  "group": "قنوات رياضية"
- },
- {
-  "name": "Eurosport 2 Spain",
-  "url": "http://45.134.141.161:2200/ARG/Eurosport_2_HD/index.m3u8",
   "group": "قنوات رياضية"
  },
  {
@@ -1567,6 +1547,11 @@
  {
   "name": "Al Jazeera English",
   "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
+  "group": "قنوات عالمية"
+ },
+ {
+  "name": "Al Jazeera English HD",
+  "url": "http://stream.mcquack.net/131/index.m3u8",
   "group": "قنوات عالمية"
  },
  {
@@ -1897,6 +1882,11 @@
  {
   "name": "Sky News Extra 3",
   "url": "https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8",
+  "group": "قنوات عالمية"
+ },
+ {
+  "name": "Sky News Urdu",
+  "url": "https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8",
   "group": "قنوات عالمية"
  },
  {
