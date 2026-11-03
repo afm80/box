@@ -175,11 +175,6 @@
   "group": "قنوات عراقية"
  },
  {
-  "name": "UTV (Iraq)",
-  "url": "https://utviraqi-live.lg.mncdn.com/utviraqi-live/64c80359/index.m3u8",
-  "group": "قنوات عراقية"
- },
- {
   "name": "Waar TV",
   "url": "https://hlspackager.akamaized.net/live/DB/WAAR_HD/HLS/WAAR_HD.m3u8",
   "group": "قنوات عراقية"
@@ -382,11 +377,6 @@
  {
   "name": "Al-Fady TV",
   "url": "https://5d658d7e9f562.streamlock.net/alfadytv.tv/alfadytv.smil/playlist.m3u8",
-  "group": "قنوات عربية"
- },
- {
-  "name": "Al-Sahat TV",
-  "url": "https://assahat.b-cdn.net/Assahat/assahatobs/index.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -805,13 +795,18 @@
   "group": "قنوات عربية"
  },
  {
-  "name": "Mekameleen TV",
-  "url": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8",
+  "name": "Medi1TV Arabic",
+  "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8",
   "group": "قنوات عربية"
  },
  {
-  "name": "Melody FM",
-  "url": "https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8",
+  "name": "Medi1TV Maghreb",
+  "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
+  "name": "Mekameleen TV",
+  "url": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -1225,11 +1220,6 @@
   "group": "قنوات عربية"
  },
  {
-  "name": "Bahrain Sports 1",
-  "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
-  "group": "قنوات رياضية"
- },
- {
   "name": "Jordan Sport",
   "url": "https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8",
   "group": "قنوات رياضية"
@@ -1237,6 +1227,16 @@
  {
   "name": "KTV Sport",
   "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8",
+  "group": "قنوات رياضية"
+ },
+ {
+  "name": "KTV Sport Plus",
+  "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
+  "group": "قنوات رياضية"
+ },
+ {
+  "name": "Oman Sports TV",
+  "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
   "group": "قنوات رياضية"
  },
  {
@@ -1420,11 +1420,6 @@
   "group": "قنوات رياضية"
  },
  {
-  "name": "ESPN (United States)",
-  "url": "http://tvsen7.aynascope.net/espn/index.m3u8",
-  "group": "قنوات رياضية"
- },
- {
   "name": "ESPN (United States) HD",
   "url": "http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8",
   "group": "قنوات رياضية"
@@ -1442,11 +1437,6 @@
  {
   "name": "ESPN Latin America Mexico",
   "url": "http://168.228.44.241:9997/play/a06p/index.m3u8",
-  "group": "قنوات رياضية"
- },
- {
-  "name": "ESPN Premium HD",
-  "url": "http://158.172.155.130:8000/play/a0ao/index.m3u8",
   "group": "قنوات رياضية"
  },
  {
@@ -1567,11 +1557,6 @@
  {
   "name": "Al Jazeera English",
   "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
-  "group": "قنوات عالمية"
- },
- {
-  "name": "Al Jazeera English HD",
-  "url": "http://stream.mcquack.net/131/index.m3u8",
   "group": "قنوات عالمية"
  },
  {
@@ -1815,11 +1800,6 @@
   "group": "قنوات عالمية"
  },
  {
-  "name": "Fox News Channel",
-  "url": "https://tvsen6.aynaott.com/foxnews/index.m3u8",
-  "group": "قنوات عالمية"
- },
- {
   "name": "Fox News Radio",
   "url": "https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8",
   "group": "قنوات عالمية"
@@ -1905,11 +1885,6 @@
   "group": "قنوات عالمية"
  },
  {
-  "name": "Sky News Urdu",
-  "url": "https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8",
-  "group": "قنوات عالمية"
- },
- {
   "name": "TRT World",
   "url": "https://mumbai-edge.smartplaytv.in/TRTWorld/index.m3u8",
   "group": "قنوات عالمية"
@@ -1935,8 +1910,8 @@
   "group": "قنوات عالمية"
  },
  {
-  "name": "Animal Planet (United States)",
-  "url": "http://23.239.31.26:8989/animalplanet/index.m3u8",
+  "name": "Animal Planet (Russia)",
+  "url": "http://stream.mcquack.net/114/index.m3u8",
   "group": "قنوات عالمية"
  },
  {
@@ -2045,11 +2020,6 @@
   "group": "قنوات عالمية"
  },
  {
-  "name": "National Geographic (United States) HD East",
-  "url": "http://198.58.104.90:8989/natgeo/index.m3u8",
-  "group": "قنوات عالمية"
- },
- {
   "name": "National Geographic Latin America",
   "url": "http://15.204.246.24:8080/NatGeoHD/index.m3u8",
   "group": "قنوات عالمية"
@@ -2057,11 +2027,6 @@
  {
   "name": "National Geographic Wild (Poland)",
   "url": "http://92.114.85.87:8010/play/a005/index.m3u8",
-  "group": "قنوات عالمية"
- },
- {
-  "name": "National Geographic Wild (United States) HD East",
-  "url": "http://198.58.104.90:8989/natgeowild/index.m3u8",
   "group": "قنوات عالمية"
  },
  {
