@@ -325,11 +325,6 @@
   "group": "قنوات عربية"
  },
  {
-  "name": "Al Maaref TV",
-  "url": "https://bucharest.zeuscdn724.com/lb0/CH-AL-MA/index.m3u8",
-  "group": "قنوات عربية"
- },
- {
   "name": "Al Madina",
   "url": "https://streaming.zaytonatube.com:8081/AlMadinatv/almadina21/index.m3u8",
   "group": "قنوات عربية"
@@ -645,6 +640,11 @@
   "group": "قنوات عربية"
  },
  {
+  "name": "God Stands TV Arabic",
+  "url": "https://online.godstands.tv:5443/WebRTCApp/streams/Arabic.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
   "name": "Habib TV",
   "url": "https://ncdn.telewebion.ir/habib/live/playlist.m3u8",
   "group": "قنوات عربية"
@@ -805,18 +805,13 @@
   "group": "قنوات عربية"
  },
  {
-  "name": "Medi1TV Arabic",
-  "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8",
-  "group": "قنوات عربية"
- },
- {
-  "name": "Medi1TV Maghreb",
-  "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8",
-  "group": "قنوات عربية"
- },
- {
   "name": "Mekameleen TV",
   "url": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
+  "name": "Melody FM",
+  "url": "https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -895,6 +890,11 @@
   "group": "قنوات عربية"
  },
  {
+  "name": "Nidae AlIslam Radio",
+  "url": "https://live.kwikmotion.com/sbrksanedaradiolive/srpksanedaradio/playlist.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
   "name": "Nour Al Koddass",
   "url": "https://svs.itworkscdn.net/nour1satlive/livestream/playlist.m3u8",
   "group": "قنوات عربية"
@@ -962,6 +962,11 @@
  {
   "name": "Qatar Television 2",
   "url": "https://live.kwikmotion.com/qtv2live/qtv2.smil/playlist.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
+  "name": "Qatar Television",
+  "url": "https://live.kwikmotion.com/qtv1live/qtv1.smil/playlist.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -1232,16 +1237,6 @@
  {
   "name": "KTV Sport",
   "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8",
-  "group": "قنوات رياضية"
- },
- {
-  "name": "KTV Sport Plus",
-  "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
-  "group": "قنوات رياضية"
- },
- {
-  "name": "Oman Sports TV",
-  "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
   "group": "قنوات رياضية"
  },
  {
@@ -1820,6 +1815,11 @@
   "group": "قنوات عالمية"
  },
  {
+  "name": "Fox News Channel",
+  "url": "https://tvsen6.aynaott.com/foxnews/index.m3u8",
+  "group": "قنوات عالمية"
+ },
+ {
   "name": "Fox News Radio",
   "url": "https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8",
   "group": "قنوات عالمية"
@@ -1902,6 +1902,11 @@
  {
   "name": "Sky News Extra 3",
   "url": "https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8",
+  "group": "قنوات عالمية"
+ },
+ {
+  "name": "Sky News Urdu",
+  "url": "https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8",
   "group": "قنوات عالمية"
  },
  {
@@ -2012,6 +2017,11 @@
  {
   "name": "Investigation Discovery (India)",
   "url": "https://drk6xq0vhn.gpcdn.net/live/id_hd_abr/index.m3u8",
+  "group": "قنوات عالمية"
+ },
+ {
+  "name": "Investigation Discovery (Russia)",
+  "url": "http://stream.mcquack.net/205/index.m3u8",
   "group": "قنوات عالمية"
  },
  {
