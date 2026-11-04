@@ -175,6 +175,11 @@
   "group": "قنوات عراقية"
  },
  {
+  "name": "UTV (Iraq)",
+  "url": "https://utviraqi-live.lg.mncdn.com/utviraqi-live/64c80359/index.m3u8",
+  "group": "قنوات عراقية"
+ },
+ {
   "name": "Waar TV",
   "url": "https://hlspackager.akamaized.net/live/DB/WAAR_HD/HLS/WAAR_HD.m3u8",
   "group": "قنوات عراقية"
@@ -380,6 +385,11 @@
   "group": "قنوات عربية"
  },
  {
+  "name": "Al-Sahat TV",
+  "url": "https://assahat.b-cdn.net/Assahat/assahatobs/index.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
   "name": "Al-Souriya TV",
   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-souriya-tv/e3150760fa5fd62776225433b8c3d406/index.m3u8",
   "group": "قنوات عربية"
@@ -550,6 +560,11 @@
   "group": "قنوات عربية"
  },
  {
+  "name": "CNA (Algeria)",
+  "url": "https://live.creacast.com/cna/stream/playlist.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
   "name": "CNBC Arabiya",
   "url": "https://cnbc-live.akamaized.net/cnbc/master.m3u8",
   "group": "قنوات عربية"
@@ -617,11 +632,6 @@
  {
   "name": "France 24 Arabic",
   "url": "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8",
-  "group": "قنوات عربية"
- },
- {
-  "name": "Future TV",
-  "url": "https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -1220,6 +1230,11 @@
   "group": "قنوات عربية"
  },
  {
+  "name": "Bahrain Sports 1",
+  "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
+  "group": "قنوات رياضية"
+ },
+ {
   "name": "Jordan Sport",
   "url": "https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8",
   "group": "قنوات رياضية"
@@ -1227,11 +1242,6 @@
  {
   "name": "KTV Sport",
   "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8",
-  "group": "قنوات رياضية"
- },
- {
-  "name": "KTV Sport Plus",
-  "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
   "group": "قنوات رياضية"
  },
  {
@@ -1420,6 +1430,11 @@
   "group": "قنوات رياضية"
  },
  {
+  "name": "ESPN (United States)",
+  "url": "http://tvsen7.aynascope.net/espn/index.m3u8",
+  "group": "قنوات رياضية"
+ },
+ {
   "name": "ESPN (United States) HD",
   "url": "http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8",
   "group": "قنوات رياضية"
@@ -1437,6 +1452,11 @@
  {
   "name": "ESPN Latin America Mexico",
   "url": "http://168.228.44.241:9997/play/a06p/index.m3u8",
+  "group": "قنوات رياضية"
+ },
+ {
+  "name": "ESPN Premium HD",
+  "url": "http://158.172.155.130:8000/play/a0ao/index.m3u8",
   "group": "قنوات رياضية"
  },
  {
@@ -1557,6 +1577,11 @@
  {
   "name": "Al Jazeera English",
   "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
+  "group": "قنوات عالمية"
+ },
+ {
+  "name": "Al Jazeera English HD",
+  "url": "http://stream.mcquack.net/131/index.m3u8",
   "group": "قنوات عالمية"
  },
  {
@@ -1797,6 +1822,11 @@
  {
   "name": "Euronews Spanish",
   "url": "https://iptv.bitred.cl/euronews/index.m3u8",
+  "group": "قنوات عالمية"
+ },
+ {
+  "name": "Fox News Channel",
+  "url": "https://tvsen6.aynaott.com/foxnews/index.m3u8",
   "group": "قنوات عالمية"
  },
  {
