@@ -5,6 +5,11 @@
   "group": "قنوات عراقية"
  },
  {
+  "name": "Al Iraqia Kurdish",
+  "url": "https://imn-live.esite-lab.com/hls/iraqia-kurdish.m3u8",
+  "group": "قنوات عراقية"
+ },
+ {
   "name": "Al Janoub TV",
   "url": "https://live.alissahost.net/hls/test.m3u8",
   "group": "قنوات عراقية"
@@ -72,6 +77,11 @@
  {
   "name": "Channel8",
   "url": "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8",
+  "group": "قنوات عراقية"
+ },
+ {
+  "name": "FarmodaTV",
+  "url": "https://avr.host247.net/live/FarmodaTV/playlist.m3u8",
   "group": "قنوات عراقية"
  },
  {
@@ -565,6 +575,11 @@
   "group": "قنوات عربية"
  },
  {
+  "name": "CNA (Algeria)",
+  "url": "https://live.creacast.com/cna/stream/playlist.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
   "name": "CNBC Arabiya",
   "url": "https://cnbc-live.akamaized.net/cnbc/master.m3u8",
   "group": "قنوات عربية"
@@ -582,11 +597,6 @@
  {
   "name": "DW Arabic",
   "url": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8",
-  "group": "قنوات عربية"
- },
- {
-  "name": "El Radio 9090 FM",
-  "url": "https://9090video.mobtada.com/hls/stream.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -632,6 +642,11 @@
  {
   "name": "France 24 Arabic",
   "url": "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
+  "name": "Future TV",
+  "url": "https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -820,11 +835,6 @@
   "group": "قنوات عربية"
  },
  {
-  "name": "Melody FM",
-  "url": "https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8",
-  "group": "قنوات عربية"
- },
- {
   "name": "mfm",
   "url": "https://hms.pfs.gdn/hms/v1/broadcast/hlmvmp2hfriode891/playlist.m3u8",
   "group": "قنوات عربية"
@@ -890,6 +900,11 @@
   "group": "قنوات عربية"
  },
  {
+  "name": "Muslim Network TV",
+  "url": "https://afghantv.app/hls2/muslimnetwork/index.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
   "name": "News of the World Arabic",
   "url": "https://live.nowtelly.com/now_arabic/live/playlist.m3u8",
   "group": "قنوات عربية"
@@ -910,8 +925,8 @@
   "group": "قنوات عربية"
  },
  {
-  "name": "Oman TV Cultural",
-  "url": "https://partwota.cdn.mgmlcdn.com/omcultural/smil:omcultural.stream.smil/chunklist.m3u8",
+  "name": "Oman TV Mubashir",
+  "url": "https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -1080,6 +1095,11 @@
   "group": "قنوات عربية"
  },
  {
+  "name": "Shabab FM",
+  "url": "https://streaming.zaytonatube.com:8081/ShababFM/shabab/index.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
   "name": "Sharjah Radio",
   "url": "https://svs.itworkscdn.net/smcradiolive/smcradiolive/playlist.m3u8",
   "group": "قنوات عربية"
@@ -1230,11 +1250,6 @@
   "group": "قنوات رياضية"
  },
  {
-  "name": "KTV Sport Plus",
-  "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
-  "group": "قنوات رياضية"
- },
- {
   "name": "Oman Sports TV",
   "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
   "group": "قنوات رياضية"
@@ -1380,6 +1395,11 @@
   "group": "قنوات رياضية"
  },
  {
+  "name": "ESPN 4 (Brazil)",
+  "url": "http://181.78.197.59:8000/play/a07n/index.m3u8",
+  "group": "قنوات رياضية"
+ },
+ {
   "name": "ESPN 4 Latin America",
   "url": "https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.m3u8",
   "group": "قنوات رياضية"
@@ -1397,6 +1417,11 @@
  {
   "name": "ESPN 7 Latin America",
   "url": "https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.m3u8",
+  "group": "قنوات رياضية"
+ },
+ {
+  "name": "ESPN (Brazil)",
+  "url": "http://181.78.197.59:8000/play/a07z/index.m3u8",
   "group": "قنوات رياضية"
  },
  {
@@ -1900,6 +1925,11 @@
   "group": "قنوات عالمية"
  },
  {
+  "name": "Animal Planet (Russia)",
+  "url": "http://stream.mcquack.net/114/index.m3u8",
+  "group": "قنوات عالمية"
+ },
+ {
   "name": "Animal Planet Latin America",
   "url": "http://190.128.214.97:64333/play/a01n/index.m3u8",
   "group": "قنوات عالمية"
@@ -2012,11 +2042,6 @@
  {
   "name": "National Geographic Latin America",
   "url": "http://15.204.246.24:8080/NatGeoHD/index.m3u8",
-  "group": "قنوات عالمية"
- },
- {
-  "name": "National Geographic Wild (Poland)",
-  "url": "http://92.114.85.87:8010/play/a005/index.m3u8",
   "group": "قنوات عالمية"
  },
  {
