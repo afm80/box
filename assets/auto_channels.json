@@ -5,11 +5,6 @@
   "group": "قنوات عراقية"
  },
  {
-  "name": "Al Iraqia Kurdish",
-  "url": "https://imn-live.esite-lab.com/hls/iraqia-kurdish.m3u8",
-  "group": "قنوات عراقية"
- },
- {
   "name": "Al Janoub TV",
   "url": "https://live.alissahost.net/hls/test.m3u8",
   "group": "قنوات عراقية"
@@ -262,6 +257,11 @@
  {
   "name": "Al Arabiya Programs",
   "url": "https://live.alarabiya.net/alarabiapublish/aaprograms.smil/playlist.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
+  "name": "Al Araby TV 2",
+  "url": "https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -1005,11 +1005,6 @@
   "group": "قنوات عربية"
  },
  {
-  "name": "RASD TV",
-  "url": "https://cloud.streamingconnect.tv/hls/rasdtv2/rasdtv.m3u8",
-  "group": "قنوات عربية"
- },
- {
   "name": "Rashid AlMajed",
   "url": "https://dphwv2ufgnfsq.cloudfront.net/out/v1/59cd80dfe93a479eb8b4d79bc6f225ca/index.m3u8",
   "group": "قنوات عربية"
@@ -1245,11 +1240,6 @@
   "group": "قنوات رياضية"
  },
  {
-  "name": "KTV Sport Plus",
-  "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
-  "group": "قنوات رياضية"
- },
- {
   "name": "Oman Sports TV",
   "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
   "group": "قنوات رياضية"
@@ -1277,6 +1267,11 @@
  {
   "name": "Astrahan.Ru Sport",
   "url": "https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8",
+  "group": "قنوات رياضية"
+ },
+ {
+  "name": "beIN Sports USA",
+  "url": "https://tvsen6.aynaott.com/beinsports/index.m3u8",
   "group": "قنوات رياضية"
  },
  {
@@ -1927,11 +1922,6 @@
  {
   "name": "Animal Planet (India) HD",
   "url": "https://drk6xq0vhn.gpcdn.net/live/animal_planet_hd_abr/index.m3u8",
-  "group": "قنوات عالمية"
- },
- {
-  "name": "Animal Planet (Russia)",
-  "url": "http://stream.mcquack.net/114/index.m3u8",
   "group": "قنوات عالمية"
  },
  {
