@@ -635,11 +635,6 @@
   "group": "قنوات عربية"
  },
  {
-  "name": "Future TV",
-  "url": "https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8",
-  "group": "قنوات عربية"
- },
- {
   "name": "God Stands Kids Club TV Arabic",
   "url": "https://online.godstands.tv:5443/WebRTCApp/streams/KidsArabic.m3u8",
   "group": "قنوات عربية"
@@ -825,6 +820,11 @@
   "group": "قنوات عربية"
  },
  {
+  "name": "Melody FM",
+  "url": "https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
   "name": "mfm",
   "url": "https://hms.pfs.gdn/hms/v1/broadcast/hlmvmp2hfriode891/playlist.m3u8",
   "group": "قنوات عربية"
@@ -890,11 +890,6 @@
   "group": "قنوات عربية"
  },
  {
-  "name": "Muslim Network TV",
-  "url": "https://afghantv.app/hls2/muslimnetwork/index.m3u8",
-  "group": "قنوات عربية"
- },
- {
   "name": "News of the World Arabic",
   "url": "https://live.nowtelly.com/now_arabic/live/playlist.m3u8",
   "group": "قنوات عربية"
@@ -917,11 +912,6 @@
  {
   "name": "Oman TV Cultural",
   "url": "https://partwota.cdn.mgmlcdn.com/omcultural/smil:omcultural.stream.smil/chunklist.m3u8",
-  "group": "قنوات عربية"
- },
- {
-  "name": "Oman TV Mubashir",
-  "url": "https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -1005,6 +995,11 @@
   "group": "قنوات عربية"
  },
  {
+  "name": "RASD TV",
+  "url": "https://cloud.streamingconnect.tv/hls/rasdtv2/rasdtv.m3u8",
+  "group": "قنوات عربية"
+ },
+ {
   "name": "Rashid AlMajed",
   "url": "https://dphwv2ufgnfsq.cloudfront.net/out/v1/59cd80dfe93a479eb8b4d79bc6f225ca/index.m3u8",
   "group": "قنوات عربية"
@@ -1082,11 +1077,6 @@
  {
   "name": "Senses TV",
   "url": "http://31.14.41.69:8080/hls/sensesonline/index.m3u8",
-  "group": "قنوات عربية"
- },
- {
-  "name": "Shabab FM",
-  "url": "https://streaming.zaytonatube.com:8081/ShababFM/shabab/index.m3u8",
   "group": "قنوات عربية"
  },
  {
@@ -1240,6 +1230,11 @@
   "group": "قنوات رياضية"
  },
  {
+  "name": "KTV Sport Plus",
+  "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
+  "group": "قنوات رياضية"
+ },
+ {
   "name": "Oman Sports TV",
   "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
   "group": "قنوات رياضية"
@@ -1385,11 +1380,6 @@
   "group": "قنوات رياضية"
  },
  {
-  "name": "ESPN 4 (Brazil)",
-  "url": "http://181.78.197.59:8000/play/a07n/index.m3u8",
-  "group": "قنوات رياضية"
- },
- {
   "name": "ESPN 4 Latin America",
   "url": "https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.m3u8",
   "group": "قنوات رياضية"
@@ -1407,16 +1397,6 @@
  {
   "name": "ESPN 7 Latin America",
   "url": "https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.m3u8",
-  "group": "قنوات رياضية"
- },
- {
-  "name": "ESPN (Brazil)",
-  "url": "http://181.78.197.59:8000/play/a07z/index.m3u8",
-  "group": "قنوات رياضية"
- },
- {
-  "name": "ESPN (United States)",
-  "url": "http://tvsen7.aynascope.net/espn/index.m3u8",
   "group": "قنوات رياضية"
  },
  {
@@ -1810,11 +1790,6 @@
   "group": "قنوات عالمية"
  },
  {
-  "name": "Fox News Channel",
-  "url": "https://tvsen6.aynaott.com/foxnews/index.m3u8",
-  "group": "قنوات عالمية"
- },
- {
   "name": "Fox News Radio",
   "url": "https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8",
   "group": "قنوات عالمية"
@@ -2012,6 +1987,11 @@
  {
   "name": "Investigation Discovery (United States)",
   "url": "http://212.5.144.156:8080/id/index.m3u8",
+  "group": "قنوات عالمية"
+ },
+ {
+  "name": "Investigation Discovery Latin America South",
+  "url": "http://38.65.175.84:8000/play/a0ch/index.m3u8",
   "group": "قنوات عالمية"
  },
  {
