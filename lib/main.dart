@@ -9,6 +9,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
 import 'package:media_kit/media_kit.dart';
 import 'package:media_kit_video/media_kit_video.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:video_player/video_player.dart';
 import 'player_core.dart';
 import 'youtube_resolver.dart';
@@ -153,6 +154,13 @@ class _HomePageState extends State<HomePage> {
   ScrollController? listCtrl;
   int _playToken = 0;
 
+  // ---- ميزات التلفزيون ----
+  int prev = -1; // القناة السابقة (للرجوع السريع)
+  bool infoVisible = false; // شريط معلومات القناة
+  Timer? infoTimer;
+  String numBuf = ''; // رقم القناة قيد الإدخال
+  Timer? numTimer;
+
   @override
   void initState() {
     super.initState();
@@ -161,21 +169,69 @@ class _HomePageState extends State<HomePage> {
       DeviceOrientation.landscapeRight,
     ]);
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
-    loadChannels().then((c) {
+    _startup();
+  }
+
+  // ---------- آخر قناة ----------
+  Future<(String, String)?> _loadLast() async {
+    try {
+      final sp = await SharedPreferences.getInstance();
+      final n = sp.getString('last_name');
+      final u = sp.getString('last_url');
+      if (n != null && u != null) return (n, u);
+    } catch (_) {}
+    return null;
+  }
+
+  Future<void> _saveLast(Channel c) async {
+    try {
+      final sp = await SharedPreferences.getInstance();
+      await sp.setString('last_name', c.name);
+      await sp.setString('last_url', c.url);
+    } catch (_) {}
+  }
+
+  int _findSaved((String, String)? saved) {
+    if (saved == null) return -1;
+    final all = allChannels;
+    var k = all.indexWhere((c) => c.url == saved.$2);
+    if (k < 0) k = all.indexWhere((c) => c.name == saved.$1);
+    return k;
+  }
+
+  Future<void> _startup() async {
+    final saved = await _loadLast();
+    final autoFuture = loadAutoChannels();
+    final c = await loadChannels();
+    if (!mounted) return;
+    setState(() => channels = c);
+    var start = _findSaved(saved);
+    if (start < 0 && saved != null) {
+      // القناة المحفوظة قد تكون ضمن القنوات التلقائية
+      final a = await autoFuture;
       if (!mounted) return;
-      setState(() => channels = c);
-      if (c.isNotEmpty) {
-        _openMenu();
-        _play(0);
-      }
-    });
-    loadAutoChannels().then((c) {
-      if (mounted) setState(() => autoChannels = c);
-    });
+      setState(() => autoChannels = a);
+      start = _findSaved(saved);
+    } else {
+      autoFuture.then((a) {
+        if (mounted) setState(() => autoChannels = a);
+      });
+    }
+    if (allChannels.isEmpty) return;
+    if (start >= 0) {
+      // نفتح مباشرة على آخر قناة (مثل التلفزيون) مع شريط المعلومات
+      _play(start);
+      _showInfo();
+    } else {
+      _openMenu();
+      _play(0);
+    }
   }
 
   @override
   void dispose() {
+    infoTimer?.cancel();
+    numTimer?.cancel();
     ctrl.dispose();
     rootFocus.dispose();
     qBtnFocus.dispose();
@@ -262,9 +318,11 @@ class _HomePageState extends State<HomePage> {
     if (i < 0 || i >= all.length) return;
     final token = ++_playToken;
     setState(() {
+      if (current >= 0 && current != i) prev = current;
       current = i;
       localMsg = null;
     });
+    _saveLast(all[i]);
     var url = all[i].url;
     if (isYoutubeUrl(url)) {
       setState(() => localMsg = 'جاري تحميل بث يوتيوب...');
@@ -278,6 +336,60 @@ class _HomePageState extends State<HomePage> {
       url = resolved;
     }
     await ctrl.play(url);
+  }
+
+  // ---------- شريط المعلومات / تغيير القناة ----------
+  void _showInfo() {
+    infoTimer?.cancel();
+    setState(() => infoVisible = true);
+    infoTimer = Timer(const Duration(seconds: 3), () {
+      if (mounted) setState(() => infoVisible = false);
+    });
+  }
+
+  void _switchBy(int delta) {
+    final n = allChannels.length;
+    if (n == 0) return;
+    final base = current < 0 ? 0 : current;
+    _play(((base + delta) % n + n) % n);
+    _showInfo();
+  }
+
+  void _recallPrev() {
+    if (prev < 0 || prev >= allChannels.length) return;
+    _play(prev);
+    _showInfo();
+  }
+
+  // إدخال رقم القناة بأزرار الريموت
+  void _typeDigit(String d) {
+    if (numBuf.length >= 4) return;
+    numTimer?.cancel();
+    setState(() => numBuf += d);
+    final n = int.parse(numBuf);
+    final total = allChannels.length;
+    // إذا لا يمكن إضافة رقم آخر (n*10 أكبر من العدد) نشغّل فوراً
+    if (n * 10 > total) {
+      _commitNumber();
+    } else {
+      numTimer = Timer(const Duration(milliseconds: 1500), _commitNumber);
+    }
+  }
+
+  void _commitNumber() {
+    numTimer?.cancel();
+    final n = int.tryParse(numBuf) ?? 0;
+    setState(() => numBuf = '');
+    if (n >= 1 && n <= allChannels.length) {
+      _play(n - 1);
+      _showInfo();
+    }
+  }
+
+  static String? _digitOf(LogicalKeyboardKey k) {
+    final l = k.keyLabel;
+    if (l.length == 1 && '0123456789'.contains(l)) return l;
+    return null;
   }
 
   // ---------- مفاتيح الريموت ----------
@@ -298,13 +410,41 @@ class _HomePageState extends State<HomePage> {
       }
       return KeyEventResult.ignored;
     }
-    if (k == LogicalKeyboardKey.enter ||
+    final isOk = k == LogicalKeyboardKey.enter ||
         k == LogicalKeyboardKey.numpadEnter ||
         k == LogicalKeyboardKey.select ||
-        k == LogicalKeyboardKey.space ||
-        k == LogicalKeyboardKey.arrowUp ||
-        k == LogicalKeyboardKey.arrowDown) {
+        k == LogicalKeyboardKey.space;
+    // OK أثناء إدخال رقم = تأكيد فوري
+    if (isOk && numBuf.isNotEmpty) {
+      _commitNumber();
+      return KeyEventResult.handled;
+    }
+    if (isOk) {
       _openMenu();
+      return KeyEventResult.handled;
+    }
+    // ↑ القناة التالية، ↓ السابقة (بدون فتح القائمة)
+    if (k == LogicalKeyboardKey.arrowUp ||
+        k == LogicalKeyboardKey.channelUp ||
+        k == LogicalKeyboardKey.pageUp) {
+      _switchBy(1);
+      return KeyEventResult.handled;
+    }
+    if (k == LogicalKeyboardKey.arrowDown ||
+        k == LogicalKeyboardKey.channelDown ||
+        k == LogicalKeyboardKey.pageDown) {
+      _switchBy(-1);
+      return KeyEventResult.handled;
+    }
+    // ← الرجوع للقناة السابقة
+    if (k == LogicalKeyboardKey.arrowLeft) {
+      _recallPrev();
+      return KeyEventResult.handled;
+    }
+    // الأرقام
+    final d = _digitOf(k);
+    if (d != null) {
+      _typeDigit(d);
       return KeyEventResult.handled;
     }
     return KeyEventResult.ignored;
@@ -396,14 +536,75 @@ class _HomePageState extends State<HomePage> {
                     active: i == current,
                     focusNode: i == focusIndex ? activeNode : null,
                     onTap: () {
-                      _play(i);
                       _closeMenu();
+                      _play(i);
+                      _showInfo();
                     },
                   );
                 },
               );
             }),
           ),
+        ),
+      ),
+    );
+  }
+
+  Widget _infoBar() {
+    final all = allChannels;
+    if (current < 0 || current >= all.length) return const SizedBox.shrink();
+    return Positioned(
+      left: 30,
+      bottom: 30,
+      child: IgnorePointer(
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+          decoration: BoxDecoration(
+            color: const Color(0xD9000000),
+            borderRadius: BorderRadius.circular(10),
+            border: Border.all(color: const Color(0x33FFFFFF)),
+          ),
+          child: Row(mainAxisSize: MainAxisSize.min, children: [
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+              decoration: BoxDecoration(
+                color: accent,
+                borderRadius: BorderRadius.circular(6),
+              ),
+              child: Text('${current + 1}',
+                  style: const TextStyle(
+                      fontSize: 18, fontWeight: FontWeight.w800)),
+            ),
+            const SizedBox(width: 12),
+            ConstrainedBox(
+              constraints: const BoxConstraints(maxWidth: 420),
+              child: Text(all[current].name,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(
+                      fontSize: 18, fontWeight: FontWeight.w700)),
+            ),
+          ]),
+        ),
+      ),
+    );
+  }
+
+  Widget _numOverlay() {
+    return Positioned(
+      top: 30,
+      right: 40,
+      child: IgnorePointer(
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 8),
+          decoration: BoxDecoration(
+            color: const Color(0xD9000000),
+            borderRadius: BorderRadius.circular(12),
+            border: Border.all(color: accent, width: 2),
+          ),
+          child: Text(numBuf,
+              style: const TextStyle(
+                  fontSize: 44, fontWeight: FontWeight.w800, letterSpacing: 4)),
         ),
       ),
     );
@@ -483,6 +684,8 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   _video(),
                   _status(),
+                  if (infoVisible && !menuOpen) _infoBar(),
+                  if (numBuf.isNotEmpty && !menuOpen) _numOverlay(),
                   if (menuOpen) _menu(),
                   if (menuOpen && ctrl.qualities.length > 1) _qualityButton(),
                   if (menuOpen && qOpen && ctrl.qualities.length > 1)
