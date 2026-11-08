@@ -37,7 +37,7 @@ jobs:
           if 'usesCleartextTraffic' not in s:
               s = s.replace('<application', '<application android:usesCleartextTraffic="true"', 1)
           if 'android:banner' not in s:
-              s = s.replace('<application', '<application android:banner="@mipmap/ic_launcher"', 1)
+              s = s.replace('<application', '<application android:banner="@drawable/banner"', 1)
           if 'LEANBACK_LAUNCHER' not in s:
               s = re.sub(r'(<category android:name="android.intent.category.LAUNCHER"\s*/>)',
                          r'\1\n                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>', s, count=1)
@@ -53,6 +53,11 @@ jobs:
 
           assert 'android:label="Alfaham Box"' in open(p, encoding='utf-8').read(), 'app label was not patched'
           PY
+
+      - name: Add Android TV banner
+        run: |
+          mkdir -p android/app/src/main/res/drawable-xhdpi
+          cp assets/banner.png android/app/src/main/res/drawable-xhdpi/banner.png
 
       - run: flutter pub get
 
