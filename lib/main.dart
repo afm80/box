@@ -26,7 +26,8 @@ class Channel {
   final String name;
   final String url;
   final String? group; // عنوان القسم (للقنوات التلقائية فقط)
-  Channel(this.name, this.url, [this.group]);
+  final String? logo; // رابط شعار القناة (إن وُجد)
+  Channel(this.name, this.url, [this.group, this.logo]);
 }
 
 /// مكان ملف القنوات على GitHub (عدّل اسم الحساب/الريبو إذا اختلف).
@@ -74,8 +75,14 @@ List<Channel> parseAutoChannels(String text) {
   try {
     final list = jsonDecode(text) as List;
     return list
-        .map((e) => Channel('${e['name']}', '${e['url']}',
-            e['group']?.toString() ?? 'قنوات إضافية (تحديث تلقائي)'))
+        .map((e) {
+          final lg = e['logo']?.toString();
+          return Channel(
+              '${e['name']}',
+              '${e['url']}',
+              e['group']?.toString() ?? 'قنوات إضافية (تحديث تلقائي)',
+              (lg != null && lg.startsWith('http')) ? lg : null);
+        })
         .where((c) => c.name.isNotEmpty && c.url.startsWith('http'))
         .toList();
   } catch (_) {
@@ -186,6 +193,7 @@ class _HomePageState extends State<HomePage> {
   FocusNode? qFirstNode;
   ScrollController? listCtrl;
   int _playToken = 0;
+  Timer? _playTimer;
 
   // ---- ميزات التلفزيون ----
   int prev = -1; // القناة السابقة (للرجوع السريع)
@@ -311,6 +319,7 @@ class _HomePageState extends State<HomePage> {
   void dispose() {
     infoTimer?.cancel();
     numTimer?.cancel();
+    _playTimer?.cancel();
     ctrl.dispose();
     rootFocus.dispose();
     qBtnFocus.dispose();
@@ -393,17 +402,26 @@ class _HomePageState extends State<HomePage> {
   }
 
   // ---------- تشغيل قناة ----------
-  Future<void> _play(int i) async {
+  void _play(int i) {
     final all = allChannels;
     if (i < 0 || i >= all.length) return;
+    final ch = all[i];
     final token = ++_playToken;
     setState(() {
       if (current >= 0 && current != i) prev = current;
       current = i;
       localMsg = null;
     });
-    _saveLast(all[i]);
-    var url = all[i].url;
+    _saveLast(ch);
+    // تأخير بسيط: عند التنقل السريع لا نحمّل كل قناة نمر عليها
+    _playTimer?.cancel();
+    _playTimer =
+        Timer(const Duration(milliseconds: 350), () => _startPlayback(ch, token));
+  }
+
+  Future<void> _startPlayback(Channel ch, int token) async {
+    if (!mounted || token != _playToken) return;
+    var url = ch.url;
     if (isYoutubeUrl(url)) {
       setState(() => localMsg = 'جاري تحميل بث يوتيوب...');
       final resolved = await resolveYoutube(url);
@@ -415,6 +433,7 @@ class _HomePageState extends State<HomePage> {
       setState(() => localMsg = null);
       url = resolved;
     }
+    if (!mounted || token != _playToken) return;
     await ctrl.play(url);
   }
 
@@ -607,7 +626,58 @@ class _HomePageState extends State<HomePage> {
     return const SizedBox.shrink();
   }
 
+  /// شاشة "لا توجد إشارة" (مثل أجهزة الستلايت)
+  Widget _noSignal() {
+    final all = allChannels;
+    final name =
+        (current >= 0 && current < all.length) ? all[current].name : '';
+    return IgnorePointer(
+      child: Container(
+        alignment: Alignment.center,
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [Color(0xFF0D2340), Color(0xFF050B14)],
+          ),
+        ),
+        child: Column(mainAxisSize: MainAxisSize.min, children: [
+          const Icon(Icons.satellite_alt, size: 72, color: Color(0xFF5B7FA8)),
+          const SizedBox(height: 14),
+          const Text('لا توجد إشارة',
+              style: TextStyle(fontSize: 34, fontWeight: FontWeight.w800)),
+          const SizedBox(height: 6),
+          const Text('NO SIGNAL',
+              style: TextStyle(
+                  fontSize: 14, letterSpacing: 4, color: Color(0xFF7C93B0))),
+          if (name.isNotEmpty) ...[
+            const SizedBox(height: 14),
+            Text('${current + 1}  •  $name',
+                style:
+                    const TextStyle(fontSize: 16, color: Color(0xFFB8C7DB))),
+          ],
+        ]),
+      ),
+    );
+  }
+
   Widget _status() {
+    // أثناء الانتظار القصير قبل تحميل قناة جديدة لا نُظهر "لا توجد إشارة"
+    final waiting = _playTimer?.isActive ?? false;
+    if (waiting && ctrl.status == PlayStatus.error) {
+      return const IgnorePointer(
+        child: Center(
+          child: SizedBox(
+            width: 42,
+            height: 42,
+            child: CircularProgressIndicator(color: accent, strokeWidth: 3),
+          ),
+        ),
+      );
+    }
+    final failed = (localMsg != null && localMsg!.startsWith('⚠')) ||
+        (localMsg == null && ctrl.status == PlayStatus.error);
+    if (failed) return _noSignal();
     String? text = localMsg;
     bool loading = false;
     if (text == null) {
@@ -650,12 +720,12 @@ class _HomePageState extends State<HomePage> {
         duration: const Duration(milliseconds: 300),
         curve: Curves.easeOut,
         builder: (_, v, child) =>
-            Transform.translate(offset: Offset(v * 280, 0), child: child),
+            Transform.translate(offset: Offset(v * 320, 0), child: child),
         child: GestureDetector(
           behavior: HitTestBehavior.opaque,
           onTap: () {}, // لا تُغلق القائمة عند الضغط داخلها
           child: Container(
-            width: 260,
+            width: 300,
             height: double.infinity,
             padding: const EdgeInsets.all(10),
             decoration: const BoxDecoration(
@@ -676,6 +746,7 @@ class _HomePageState extends State<HomePage> {
                   return _ChannelCard(
                     number: i + 1,
                     name: all[i].name,
+                    logo: all[i].logo,
                     active: i == current,
                     focusNode: i == focusIndex ? activeNode : null,
                     onFocused: () => focusedIdx = i,
@@ -719,6 +790,10 @@ class _HomePageState extends State<HomePage> {
                   style: const TextStyle(
                       fontSize: 18, fontWeight: FontWeight.w800)),
             ),
+            if (all[current].logo != null) ...[
+              const SizedBox(width: 10),
+              _Logo(url: all[current].logo!, size: 34),
+            ],
             const SizedBox(width: 12),
             ConstrainedBox(
               constraints: const BoxConstraints(maxWidth: 420),
@@ -737,18 +812,18 @@ class _HomePageState extends State<HomePage> {
   Widget _numOverlay() {
     return Positioned(
       top: 30,
-      right: 40,
+      left: 30,
       child: IgnorePointer(
         child: Container(
-          padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 8),
+          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
           decoration: BoxDecoration(
             color: const Color(0xD9000000),
-            borderRadius: BorderRadius.circular(12),
-            border: Border.all(color: accent, width: 2),
+            borderRadius: BorderRadius.circular(8),
+            border: Border.all(color: accent, width: 1.5),
           ),
           child: Text(numBuf,
               style: const TextStyle(
-                  fontSize: 44, fontWeight: FontWeight.w800, letterSpacing: 4)),
+                  fontSize: 26, fontWeight: FontWeight.w800, letterSpacing: 2)),
         ),
       ),
     );
@@ -878,6 +953,7 @@ class _GroupHeader extends StatelessWidget {
 class _ChannelCard extends StatefulWidget {
   final int number;
   final String name;
+  final String? logo;
   final bool active;
   final FocusNode? focusNode;
   final VoidCallback onTap;
@@ -888,6 +964,7 @@ class _ChannelCard extends StatefulWidget {
     required this.name,
     required this.active,
     required this.onTap,
+    this.logo,
     this.focusNode,
     this.onFocused,
   });
@@ -948,6 +1025,10 @@ class _ChannelCardState extends State<_ChannelCard> {
                 ),
               ),
             ),
+            if (widget.logo != null) ...[
+              const SizedBox(width: 10),
+              _Logo(url: widget.logo!, size: 30),
+            ],
             const SizedBox(width: 12),
             Expanded(
               child: Text(
@@ -960,6 +1041,33 @@ class _ChannelCardState extends State<_ChannelCard> {
             ),
           ]),
         ),
+      ),
+    );
+  }
+}
+
+/// شعار القناة (إن تعذر تحميله نعرض أيقونة تلفزيون بدلاً منه)
+class _Logo extends StatelessWidget {
+  final String url;
+  final double size;
+  const _Logo({required this.url, required this.size});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: size,
+      height: size,
+      padding: const EdgeInsets.all(2),
+      decoration: BoxDecoration(
+        color: const Color(0x33FFFFFF),
+        borderRadius: BorderRadius.circular(5),
+      ),
+      child: Image.network(
+        url,
+        fit: BoxFit.contain,
+        cacheWidth: (size * 3).round(),
+        errorBuilder: (_, __, ___) =>
+            const Icon(Icons.tv, size: 16, color: Color(0xFF777777)),
       ),
     );
   }
