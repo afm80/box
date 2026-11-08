@@ -56,27 +56,21 @@ List<Channel> parseChannelsText(String text) {
   return out;
 }
 
-/// من GitHub أولاً (تتحدث بدون APK جديد)، وإن تعذر الإنترنت فالنسخة المدمجة.
-Future<List<Channel>> loadChannels() async {
-  final remote = await _fetchRemote('$repoRawBase/assets/channels.txt');
-  if (remote != null) {
-    final list = parseChannelsText(remote);
-    if (list.isNotEmpty) return list;
+Future<String?> _cacheGet(String key) async {
+  try {
+    return (await SharedPreferences.getInstance()).getString(key);
+  } catch (_) {
+    return null;
   }
-  final text = await rootBundle.loadString('assets/channels.txt');
-  return parseChannelsText(text);
 }
 
-/// القنوات التلقائية (يحدّثها السكربت) — تظهر تحت اليدوية بأقسام.
-Future<List<Channel>> loadAutoChannels() async {
-  String? text = await _fetchRemote('$repoRawBase/assets/auto_channels.json');
-  if (text == null) {
-    try {
-      text = await rootBundle.loadString('assets/auto_channels.json');
-    } catch (_) {
-      return [];
-    }
-  }
+Future<void> _cacheSet(String key, String value) async {
+  try {
+    await (await SharedPreferences.getInstance()).setString(key, value);
+  } catch (_) {}
+}
+
+List<Channel> parseAutoChannels(String text) {
   try {
     final list = jsonDecode(text) as List;
     return list
@@ -84,6 +78,44 @@ Future<List<Channel>> loadAutoChannels() async {
             e['group']?.toString() ?? 'قنوات إضافية (تحديث تلقائي)'))
         .where((c) => c.name.isNotEmpty && c.url.startsWith('http'))
         .toList();
+  } catch (_) {
+    return [];
+  }
+}
+
+/// من GitHub فقط (null عند الفشل) — وتُحفظ نسخة للفتح السريع لاحقاً.
+Future<List<Channel>?> fetchChannelsRemote() async {
+  final t = await _fetchRemote('$repoRawBase/assets/channels.txt');
+  if (t == null) return null;
+  final l = parseChannelsText(t);
+  if (l.isEmpty) return null;
+  _cacheSet('cache_channels', t);
+  return l;
+}
+
+Future<List<Channel>?> fetchAutoRemote() async {
+  final t = await _fetchRemote('$repoRawBase/assets/auto_channels.json');
+  if (t == null) return null;
+  final l = parseAutoChannels(t);
+  if (l.isEmpty) return null;
+  _cacheSet('cache_auto', t);
+  return l;
+}
+
+/// من GitHub أولاً (تتحدث بدون APK جديد)، وإن تعذر الإنترنت فالنسخة المدمجة.
+Future<List<Channel>> loadChannels() async {
+  final r = await fetchChannelsRemote();
+  if (r != null) return r;
+  final text = await rootBundle.loadString('assets/channels.txt');
+  return parseChannelsText(text);
+}
+
+/// القنوات التلقائية (يحدّثها السكربت) — تظهر تحت اليدوية بأقسام.
+Future<List<Channel>> loadAutoChannels() async {
+  final r = await fetchAutoRemote();
+  if (r != null) return r;
+  try {
+    return parseAutoChannels(await rootBundle.loadString('assets/auto_channels.json'));
   } catch (_) {
     return [];
   }
@@ -150,6 +182,7 @@ class _HomePageState extends State<HomePage> {
   final qBtnFocus = FocusNode(debugLabel: 'quality-btn');
   FocusNode? activeNode; // يأخذ التركيز عند فتح القائمة
   int focusIndex = 0;
+  int focusedIdx = -1; // القناة التي عليها التركيز فعلياً في القائمة
   FocusNode? qFirstNode;
   ScrollController? listCtrl;
   int _playToken = 0;
@@ -201,23 +234,41 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> _startup() async {
     final saved = await _loadLast();
+    final cm = await _cacheGet('cache_channels');
+    final ca = await _cacheGet('cache_auto');
+    final cached = cm == null ? <Channel>[] : parseChannelsText(cm);
+    if (cached.isNotEmpty) {
+      // فتح فوري من النسخة المحفوظة، ثم التحديث في الخلفية
+      if (!mounted) return;
+      setState(() {
+        channels = cached;
+        autoChannels = ca == null ? <Channel>[] : parseAutoChannels(ca);
+      });
+      _begin(saved);
+      _refreshLists();
+      return;
+    }
+    // أول تشغيل: لا توجد نسخة محفوظة بعد
     final autoFuture = loadAutoChannels();
     final c = await loadChannels();
     if (!mounted) return;
     setState(() => channels = c);
-    var start = _findSaved(saved);
-    if (start < 0 && saved != null) {
+    if (_findSaved(saved) < 0 && saved != null) {
       // القناة المحفوظة قد تكون ضمن القنوات التلقائية
       final a = await autoFuture;
       if (!mounted) return;
       setState(() => autoChannels = a);
-      start = _findSaved(saved);
     } else {
       autoFuture.then((a) {
         if (mounted) setState(() => autoChannels = a);
       });
     }
+    _begin(saved);
+  }
+
+  void _begin((String, String)? saved) {
     if (allChannels.isEmpty) return;
+    final start = _findSaved(saved);
     if (start >= 0) {
       // نفتح مباشرة على آخر قناة (مثل التلفزيون) مع شريط المعلومات
       _play(start);
@@ -226,6 +277,34 @@ class _HomePageState extends State<HomePage> {
       _openMenu();
       _play(0);
     }
+  }
+
+  /// تحديث القوائم من الإنترنت بالخلفية دون مقاطعة المشاهدة.
+  Future<void> _refreshLists() async {
+    final r = await Future.wait<List<Channel>?>(
+        [fetchChannelsRemote(), fetchAutoRemote()]);
+    final m = r[0];
+    final a = r[1];
+    if (!mounted || (m == null && a == null)) return;
+    final all = allChannels;
+    final curUrl =
+        (current >= 0 && current < all.length) ? all[current].url : null;
+    final prevUrl =
+        (prev >= 0 && prev < all.length) ? all[prev].url : null;
+    final newManual = m ?? channels;
+    final newAuto = a ?? autoChannels;
+    String sig(List<Channel> l) => l.map((c) => '${c.name}|${c.url}').join('\n');
+    if (sig(newManual) == sig(channels) && sig(newAuto) == sig(autoChannels)) {
+      return;
+    }
+    setState(() {
+      channels = newManual;
+      autoChannels = newAuto;
+      final na = allChannels;
+      // نُبقي current/prev مشيرة لنفس القناة بعد تغيّر الترتيب
+      if (curUrl != null) current = na.indexWhere((c) => c.url == curUrl);
+      if (prevUrl != null) prev = na.indexWhere((c) => c.url == prevUrl);
+    });
   }
 
   @override
@@ -263,6 +342,7 @@ class _HomePageState extends State<HomePage> {
     listCtrl?.dispose();
     activeNode?.dispose();
     focusIndex = current < 0 ? 0 : current;
+    focusedIdx = -1;
     final pos = math.max(0, _rows().indexOf(focusIndex));
     listCtrl = ScrollController(
       initialScrollOffset: math.max(0, pos * _itemExtent - 160),
@@ -338,6 +418,55 @@ class _HomePageState extends State<HomePage> {
     await ctrl.play(url);
   }
 
+  // ---------- القفز بين الأقسام في القائمة ----------
+  void _jumpGroup(int dir) {
+    final rows = _rows();
+    if (rows.isEmpty) return;
+    var pos = rows.indexOf(focusedIdx);
+    if (pos < 0) pos = rows.indexOf(focusIndex);
+    if (pos < 0) pos = 0;
+    if (rows[pos] is! int) pos = rows.indexWhere((r) => r is int);
+    if (pos < 0) return;
+    int target;
+    if (dir > 0) {
+      int? t;
+      for (var r = pos + 1; r < rows.length; r++) {
+        if (rows[r] is String && r + 1 < rows.length) {
+          t = rows[r + 1] as int;
+          break;
+        }
+      }
+      target = t ?? (rows.lastWhere((r) => r is int) as int);
+    } else {
+      var h = pos;
+      while (h >= 0 && rows[h] is! String) {
+        h--;
+      }
+      final firstOfGroup = rows[h + 1] as int;
+      final cur = rows[pos] as int;
+      if (h < 0 || cur != firstOfGroup) {
+        target = firstOfGroup;
+      } else {
+        var h2 = h - 1;
+        while (h2 >= 0 && rows[h2] is! String) {
+          h2--;
+        }
+        target = rows[h2 + 1] as int;
+      }
+    }
+    final tpos = rows.indexOf(target);
+    focusIndex = target;
+    final lc = listCtrl;
+    if (lc != null && lc.hasClients) {
+      final off = math.max(0.0, tpos * _itemExtent - 160);
+      lc.jumpTo(off.clamp(0.0, lc.position.maxScrollExtent).toDouble());
+    }
+    setState(() {});
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted && menuOpen) activeNode?.requestFocus();
+    });
+  }
+
   // ---------- شريط المعلومات / تغيير القناة ----------
   void _showInfo() {
     infoTimer?.cancel();
@@ -408,6 +537,17 @@ class _HomePageState extends State<HomePage> {
         _closeMenu();
         return KeyEventResult.handled;
       }
+      // CH-/PageDown: القسم التالي، CH+/PageUp: القسم السابق
+      if (k == LogicalKeyboardKey.channelDown ||
+          k == LogicalKeyboardKey.pageDown) {
+        _jumpGroup(1);
+        return KeyEventResult.handled;
+      }
+      if (k == LogicalKeyboardKey.channelUp ||
+          k == LogicalKeyboardKey.pageUp) {
+        _jumpGroup(-1);
+        return KeyEventResult.handled;
+      }
       return KeyEventResult.ignored;
     }
     final isOk = k == LogicalKeyboardKey.enter ||
@@ -476,6 +616,9 @@ class _HomePageState extends State<HomePage> {
     } else if (!text.startsWith('⚠')) {
       loading = true;
     }
+    if (loading && text == null && ctrl.retryNote.isNotEmpty) {
+      text = ctrl.retryNote;
+    }
     if (!loading && (text == null || text.isEmpty)) {
       return const SizedBox.shrink();
     }
@@ -535,6 +678,7 @@ class _HomePageState extends State<HomePage> {
                     name: all[i].name,
                     active: i == current,
                     focusNode: i == focusIndex ? activeNode : null,
+                    onFocused: () => focusedIdx = i,
                     onTap: () {
                       _closeMenu();
                       _play(i);
@@ -737,6 +881,7 @@ class _ChannelCard extends StatefulWidget {
   final bool active;
   final FocusNode? focusNode;
   final VoidCallback onTap;
+  final VoidCallback? onFocused;
 
   const _ChannelCard({
     required this.number,
@@ -744,6 +889,7 @@ class _ChannelCard extends StatefulWidget {
     required this.active,
     required this.onTap,
     this.focusNode,
+    this.onFocused,
   });
 
   @override
@@ -767,7 +913,10 @@ class _ChannelCardState extends State<_ChannelCard> {
       child: InkWell(
         focusNode: widget.focusNode,
         onTap: widget.onTap,
-        onFocusChange: (f) => setState(() => focused = f),
+        onFocusChange: (f) {
+          setState(() => focused = f);
+          if (f) widget.onFocused?.call();
+        },
         borderRadius: BorderRadius.circular(6),
         splashColor: Colors.transparent,
         highlightColor: Colors.transparent,

@@ -32,6 +32,12 @@ class StreamController2 extends ChangeNotifier {
   String? _url;
   int _token = 0;
 
+  // إعادة المحاولة التلقائية
+  int _retries = 0;
+  bool _wasPlaying = false; // هل اشتغل البث قبل الانقطاع؟
+  Timer? _stableTimer;
+  String retryNote = ''; // رسالة تظهر أثناء إعادة المحاولة
+
   String? get currentUrl => _url;
 
   // ---------- تشغيل قناة جديدة ----------
@@ -40,6 +46,10 @@ class StreamController2 extends ChangeNotifier {
     quality = -1;
     qualities = [];
     engine = Engine.exo;
+    _retries = 0;
+    _wasPlaying = false;
+    retryNote = '';
+    _stableTimer?.cancel();
     final t = ++_token;
     _loadQualities(url, t);
     await _run(url, t, engine, canFallback: true);
@@ -60,6 +70,8 @@ class StreamController2 extends ChangeNotifier {
       return;
     }
     final t = ++_token;
+    _retries = 0;
+    retryNote = '';
     engine = e;
     await _run(_playUrl(), t, e, canFallback: true);
   }
@@ -126,6 +138,8 @@ class StreamController2 extends ChangeNotifier {
   Future<void> setQuality(int i) async {
     if (_url == null) return;
     quality = i;
+    _retries = 0;
+    retryNote = '';
     final t = ++_token;
     await _run(_playUrl(), t, engine, canFallback: true);
   }
@@ -152,6 +166,13 @@ class StreamController2 extends ChangeNotifier {
       if (t != _token) return;
       status = PlayStatus.playing;
       message = '';
+      retryNote = '';
+      _wasPlaying = true;
+      // إذا استقر البث 30 ثانية نصفّر العدّاد (لانقطاع قادم)
+      _stableTimer?.cancel();
+      _stableTimer = Timer(const Duration(seconds: 30), () {
+        if (t == _token) _retries = 0;
+      });
       notifyListeners();
     } catch (_) {
       if (t != _token) return;
@@ -171,6 +192,21 @@ class StreamController2 extends ChangeNotifier {
       }
     } else {
       await _disposeEngines();
+      if (t != _token) return;
+      // انقطاع بعد تشغيل: 3 محاولات، فشل من البداية: محاولة واحدة
+      final maxRetries = _wasPlaying ? 3 : 1;
+      if (_retries < maxRetries) {
+        _retries++;
+        status = PlayStatus.loading;
+        retryNote = 'إعادة المحاولة ($_retries/$maxRetries)...';
+        notifyListeners();
+        await Future.delayed(Duration(seconds: 2 * _retries));
+        if (t != _token) return;
+        engine = Engine.exo;
+        await _run(url, t, Engine.exo, canFallback: true);
+        return;
+      }
+      retryNote = '';
       status = PlayStatus.error;
       message = '⚠ تعذر تشغيل القناة';
       notifyListeners();
@@ -303,6 +339,7 @@ class StreamController2 extends ChangeNotifier {
   @override
   void dispose() {
     _token++;
+    _stableTimer?.cancel();
     _disposeEngines();
     super.dispose();
   }
