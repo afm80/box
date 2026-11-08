@@ -91,9 +91,10 @@ def kw_match(name, keywords):
 
 
 def parse_m3u(text):
-    """يرجع قائمة (name, url) ويتجاهل القنوات التي تحتاج Referer/User-Agent خاص."""
+    """يرجع قائمة (name, url, logo) ويتجاهل القنوات التي تحتاج Referer/User-Agent خاص."""
     out = []
     name = None
+    logo = None
     needs_headers = False
     for raw in text.splitlines():
         line = raw.strip()
@@ -101,6 +102,12 @@ def parse_m3u(text):
             continue
         if line.startswith("#EXTINF"):
             name = line.rsplit(",", 1)[-1] if "," in line else ""
+            m = re.search(r'tvg-logo="([^"]*)"', line)
+            logo = m.group(1).strip() if m else None
+            # نقبل روابط http(s) فقط، ونتجاهل SVG لأن التطبيق لا يعرضها
+            if logo and (not logo.lower().startswith("http")
+                         or logo.lower().split("?")[0].endswith(".svg")):
+                logo = None
             needs_headers = False
         elif line.startswith("#EXTVLCOPT"):
             low = line.lower()
@@ -110,8 +117,9 @@ def parse_m3u(text):
             continue
         elif line.lower().startswith("http"):
             if name is not None and not needs_headers:
-                out.append((clean_name(name), line))
+                out.append((clean_name(name), line, logo))
             name = None
+            logo = None
             needs_headers = False
     return out
 
@@ -157,7 +165,7 @@ def main():
     print(f"القنوات اليدوية: {len(manual_urls)} (لن تتغير)")
 
     cache = {}  # لا نحمّل نفس المصدر مرتين
-    raw = []    # (name, url, group)
+    raw = []    # (name, url, group, logo)
     ok_sources = 0
     for src in sources:
         url = src["url"]
@@ -166,13 +174,13 @@ def main():
                 cache[url] = parse_m3u(fetch_text(url))
             items = cache[url]
             inc, exc = src.get("include"), src.get("exclude")
-            picked = [(n, u) for n, u in items
+            picked = [(n, u, lg) for n, u, lg in items
                       if (not inc or kw_match(n, inc)) and not (exc and kw_match(n, exc))]
             print(f"[مصدر] {src.get('group')}: {url} -> {len(picked)} من {len(items)}")
             ok_sources += 1
             if src.get("limit"):
                 picked = picked[: src["limit"]]
-            raw.extend((n, u, src.get("group", DEFAULT_GROUP)) for n, u in picked)
+            raw.extend((n, u, src.get("group", DEFAULT_GROUP), lg) for n, u, lg in picked)
         except Exception as e:
             print(f"[فشل] {url}: {e}", file=sys.stderr)
 
@@ -182,7 +190,12 @@ def main():
 
     # ترشيح أولي + إزالة التكرار
     candidates, seen_urls = [], set()
-    for name, url, group in raw:
+    # شعار لكل اسم (أول شعار متوفر) لنملأ به القنوات التي رابطها بلا شعار
+    logo_by_name = {}
+    for name, _u, _g, logo in raw:
+        if logo and norm_name(name) not in logo_by_name:
+            logo_by_name[norm_name(name)] = logo
+    for name, url, group, logo in raw:
         if not name or not url:
             continue
         if ONLY_M3U8 and ".m3u8" not in url.lower():
@@ -192,7 +205,7 @@ def main():
         if norm_name(name) in manual_names:
             continue
         seen_urls.add(url)
-        candidates.append((name, url, group))
+        candidates.append((name, url, group, logo))
     print(f"مرشّحة للفحص: {len(candidates)}")
 
     # فحص الروابط (مع الحفاظ على الترتيب)
@@ -204,12 +217,16 @@ def main():
 
     # قناة واحدة لكل اسم (أول رابط يعمل)، وتجميع الأقسام بترتيب المصادر
     final, seen_names = [], set()
-    for name, url, group in candidates:
+    for name, url, group, logo in candidates:
         key = norm_name(name)
         if key in seen_names:
             continue
         seen_names.add(key)
-        final.append({"name": name, "url": url, "group": group})
+        item = {"name": name, "url": url, "group": group}
+        lg = logo or logo_by_name.get(key)
+        if lg:
+            item["logo"] = lg
+        final.append(item)
     order = []
     for src in sources:
         g = src.get("group", DEFAULT_GROUP)
