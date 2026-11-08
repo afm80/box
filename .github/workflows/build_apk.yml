@@ -70,8 +70,8 @@ jobs:
           KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
         run: |
           if [ -z "$KEYSTORE_BASE64" ]; then
-            echo "::error::Signing secrets are missing in this repository (add the 4 ANDROID_* secrets)."
-            exit 1
+            echo "::warning::Signing secrets are missing; skipping custom signing (APK keeps the default debug signature). Add the 4 ANDROID_* secrets to sign with your own key."
+            exit 0
           fi
           echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/my.jks"
           BT=$ANDROID_HOME/build-tools/$(ls $ANDROID_HOME/build-tools | sort -V | tail -1)
