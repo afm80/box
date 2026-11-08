@@ -2,57 +2,68 @@
  {
   "name": "ABNsat",
   "url": "https://mediaserver.abnvideos.com/streams/abnsat.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/WhPlJzh.jpeg"
  },
  {
   "name": "Al Iraqia Kurdish",
   "url": "https://imn-live.esite-lab.com/hls/iraqia-kurdish.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://gateway.esite-lab.com/file-storage/api/v1/public/uploads/2025/3/8/7a8a2548d8e5850e87066d2e573796189.png"
  },
  {
   "name": "Al Janoub TV",
   "url": "https://live.alissahost.net/hls/test.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/rxDh6W1.png"
  },
  {
   "name": "Al Rasheed TV",
   "url": "https://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/ltyRjPK.png"
  },
  {
   "name": "Al Sharqiya",
   "url": "http://185.9.2.18/chid_144/index.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/mJIG5IV.png"
  },
  {
   "name": "Al Sharqiya News",
   "url": "https://indexforce.com/newshighres/mystream/playlist.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/PeAcXB9.png"
  },
  {
   "name": "Al-Aimma TV",
   "url": "https://alaimma.tv/live/index.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://alaimma.tv/alaimma-logo.png"
  },
  {
   "name": "Alabbassia TV",
   "url": "https://stream.alabbassia.com/live/alabbassia/index.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://raw.githubusercontent.com/Alabbassia2026/Alabbassia-TV-Official/main/Logo%20PNG.png"
  },
  {
   "name": "Alawla TV",
   "url": "https://live.alawla.tv/hls/stream.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/3Kv0t3X.png"
  },
  {
   "name": "Alghadeer TV",
   "url": "https://sd343444.vodu.store:3356/live/Alghadeer/index.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/YPj6kXq.png"
  },
  {
   "name": "Amozhgary TV",
   "url": "https://app-live.org/live/3268334b/index.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/sseqFsO.png"
  },
  {
   "name": "AVA Family",
@@ -60,359 +71,436 @@
   "group": "قنوات عراقية"
  },
  {
+  "name": "AVA Media",
+  "url": "http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV-avc1_2500000=10002,mp4a_128000=20000.m3u8",
+  "group": "قنوات عراقية",
+  "logo": "https://github.com/user-attachments/assets/a9259f18-b9f2-4aa0-86f0-8fba1f343e69"
+ },
+ {
   "name": "Avar TV",
   "url": "https://avr.host247.net/live/AvarTv/playlist.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/JazFBkW.jpeg"
  },
  {
   "name": "BeitolAbbas TV Channel",
   "url": "https://live.beitolabbas.tv/live/beitolabbastv.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/s8PfUQy.png"
  },
  {
   "name": "Channel8",
   "url": "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Channel8corp.png/960px-Channel8corp.png"
+ },
+ {
+  "name": "EmanTv",
+  "url": "https://avr.host247.net/live/emantv/playlist.m3u8",
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/QmgaPSi.png"
  },
  {
   "name": "FarmodaTV",
   "url": "https://avr.host247.net/live/FarmodaTV/playlist.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/x4KCQlH.png"
  },
  {
   "name": "I News",
   "url": "https://live.i-news.tv/hls/stream.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/9lOuzHQ.png"
  },
  {
   "name": "Imam Hussein TV 1",
   "url": "http://fa.imamhossaintv.com/live/ih1.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/pDdUvz7.png"
  },
  {
   "name": "Imam Hussein TV 2",
   "url": "http://ar.imamhossaintv.com/live/ih2.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/IXVSPdJ.png"
  },
  {
   "name": "Imam Hussein TV 3",
   "url": "http://en.imamhossaintv.com/live/ih3.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/emQRHQZ.png"
  },
  {
   "name": "Imam Hussein TV 4",
   "url": "http://ur.imamhossaintv.com/live/ih4.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/0UYcylY.png"
  },
  {
   "name": "Imam Hussein TV 5",
   "url": "http://live.al-zahratv.com/live/playlist.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/Oq2Ve7C.png"
  },
  {
   "name": "Imam Hussein TV 6",
   "url": "http://live.imamhossaintv.com/live/ih6.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/lqhU0PY.png"
  },
  {
   "name": "Ishtar TV SD",
   "url": "https://stream.ishtartv.com/live/iShtarHD/playlist.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/qzApokm.png"
  },
  {
   "name": "Kurd Channel",
   "url": "https://kurdchhls.wns.live/hls/stream.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/xPwzad9.png"
  },
  {
   "name": "Kurdistan 24",
   "url": "https://hlspackager.akamaized.net/live/DB/K24/HLS/K24.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/9QWs2ms.png"
  },
  {
   "name": "Kurdistan TV",
   "url": "https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/mjQptpc.png"
  },
  {
   "name": "Kurdsat",
   "url": "https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/UAbSwYA.png"
  },
  {
   "name": "Kurdsat News",
   "url": "https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/F3XRwkt.png"
  },
  {
   "name": "Manu Chat",
   "url": "https://vmi747311.contaboserver.net/hls/livetv.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/voyoljW.png"
  },
  {
   "name": "Marjaeyat TV Arabic",
   "url": "https://livefa.marjaeyattv.com/mtv_ar/playlist.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/LsYYkUI.png"
  },
  {
   "name": "Marjaeyat TV English",
   "url": "https://livefa.marjaeyattv.com/mtv_en/playlist.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/Dvf61Jp.png"
  },
  {
   "name": "Marjaeyat TV Persian",
   "url": "https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8",
-  "group": "قنوات عراقية"
- },
- {
-  "name": "Mixkurdy",
-  "url": "https://avr.host247.net/live/Mix-kurdy/playlist.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/fCj05f0.png"
  },
  {
   "name": "Payam TV",
   "url": "https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/qySEibb.png"
  },
  {
   "name": "Rudaw TV",
   "url": "https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/Zo3IWOn.png"
  },
  {
   "name": "UTV (Iraq)",
   "url": "https://utviraqi-live.lg.mncdn.com/utviraqi-live/64c80359/index.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/9qFHjnu.png"
  },
  {
   "name": "Waar TV",
   "url": "https://hlspackager.akamaized.net/live/DB/WAAR_HD/HLS/WAAR_HD.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/rK0y02d.png"
  },
  {
   "name": "Zagros TV (Iraq)",
   "url": "https://hlspackager.akamaized.net/live/DB/ZAGROS_TV/HLS/ZAGROS_TV.m3u8",
-  "group": "قنوات عراقية"
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/9Mspf32.png"
  },
  {
   "name": "2M",
   "url": "http://185.9.2.18/chid_218/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/PJYTfHi.png"
  },
  {
   "name": "2M Monde +1",
   "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/MvpntzA.png"
  },
  {
   "name": "Abdulmajeed Abdullah",
   "url": "https://d2hng5r56zpsbw.cloudfront.net/out/v1/9c4c990f44bb4767bb46271f326dd574/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://assets.mbcmood.com/channels/1720184087Abdullah%20Majeed%20Abdullah%20banner.png"
  },
  {
   "name": "Afghanistan International",
   "url": "https://hls.afintl.com/hls/stream.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/r8MmFRX.png"
  },
  {
   "name": "Aflam",
   "url": "https://shd-amg-fast.edgenextcdn.net/tx001/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/cTLj7Yt.png"
  },
  {
   "name": "Aghani Aghani TV",
   "url": "https://cdn.streamlane.tv/hls/aghanitv/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/o6HSfNg.png"
  },
  {
   "name": "Aghapy TV",
   "url": "https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/AghapyTV.jpg"
  },
  {
   "name": "Ajman TV",
   "url": "https://cdn1.logichost.in/ajmantv/live/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/hVNIwgE.png"
  },
  {
   "name": "Ajyal TV",
   "url": "http://htvajyal.mada.ps:8888/ajyal/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/i6Y7beR.jpg"
  },
  {
   "name": "AL24 News",
   "url": "https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/vyVEXYL.png"
  },
  {
   "name": "Al Alam Al Yawm",
   "url": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist_b928000.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/aAGjAoW.png"
  },
  {
   "name": "Al Alamiya 2",
   "url": "http://82.212.74.98:8000/live/7815.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/5FrE3Nv.png"
  },
  {
   "name": "Al Arabiya Business",
   "url": "https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://shahid.mbc.net/mediaObject/73142189-aeca-4f65-8977-d769c91e2573?height=auto&width=600&croppingPoint=&version=1&type=png"
  },
  {
   "name": "Al Arabiya Programs",
   "url": "https://live.alarabiya.net/alarabiapublish/aaprograms.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/Hoc3cfO.png"
  },
  {
   "name": "Al Araby TV 2",
   "url": "https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/Gp5mNea.png"
  },
  {
   "name": "Al Araby TV",
   "url": "https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/YMqWEe4.png"
  },
  {
   "name": "Al Ekhbariya",
   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/WcRlHQm.png"
  },
  {
   "name": "Al Hadath",
   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-hadath/2ff87ec4c2f3ede35295a20637d9f8fd/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/De4SEWE.png"
  },
  {
   "name": "Al Hayat TV",
   "url": "https://cdn3.wowza.com/5/OE5HREpIcEkySlNT/alhayat-live/ngrp:livestream_all/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/M8ZuzeB.png"
  },
  {
   "name": "Al Hiwar TV",
   "url": "https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/UjOxwdd.png"
  },
  {
   "name": "Al Horreya TV",
   "url": "http://media.smc-host.com:1935/alhorreya.tv/mp4:alhorreya3/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/EK75DMJ.png"
  },
  {
   "name": "Al Ittihad TV",
   "url": "http://185.105.4.151:8080/_defapp_/ittihad/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/QMUjPXx.png"
  },
  {
   "name": "Al Jadeed",
   "url": "http://185.9.2.18/chid_391/mono.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/CfxR8o3.png"
  },
  {
   "name": "Al Jazeera 2",
   "url": "https://live-hls-web-aja2-gcp.thehlive.com/AJA2/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/miq8O1Q.png"
  },
  {
   "name": "Al Jazeera",
   "url": "https://live-hls-apps-aja-fa.getaj.net/AJA/01.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/7bRVpnu.png"
  },
  {
   "name": "Al Jazeera Mubasher",
   "url": "https://live-hls-apps-ajm-fa.getaj.net/AJM/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/X80DQvF.png"
  },
  {
   "name": "Al Jazeera Mubasher Broadcast 2",
   "url": "https://live-hls-apps-ajm2-fa.getaj.net/AJM2/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/nJmi6G6.png"
  },
  {
   "name": "Al Maaref TV",
   "url": "https://bucharest.zeuscdn724.com/lb0/CH-AL-MA/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/QFnztgo.png"
  },
  {
   "name": "Al Madina",
   "url": "https://streaming.zaytonatube.com:8081/AlMadinatv/almadina21/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/NVOeM3P.png"
  },
  {
   "name": "Al Maghribia",
   "url": "http://185.9.2.18/chid_205/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/7GaahYh.png"
  },
  {
   "name": "Al Mashhad",
   "url": "https://amg30483-amg30483c23-amgplt0794.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg30483-amg30483c23-amgplt0794/playlist.m3u8?ads.appname=[APP_NAME]&ads.appstoreurl=[APP_STOREURL]&ads.appversion=[APP_VERSION]&ads.bundleid=[APP_BUNDLE]&ads.coppa=0&ads.country=[COUNTRY]&ads.deviceid=[DEVICE_ID]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.devicetype=[DEVICE_TYPE]&ads.donotsell=[DNS]&ads.fck=[FCK]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.givn=[NONCE]&ads.ic=[IC]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.ip=[IP]&ads.lat=[LMT]&ads.network_name=[networkname]&ads.targetad=[TARGETAD_ALLOWED]&ads.ua=[UA]&ads.usprivacy=[US_PRIVACY]&ads.viewsize=[VIEWSIZE]",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/6G6fxs5.png"
  },
  {
   "name": "Al Masriyah",
   "url": "http://185.9.2.18/chid_247/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.ibb.co/Kx7wmXCQ/almasriya.png"
  },
  {
   "name": "Al Najah News",
   "url": "https://streaming.najah.edu:8443/hls/AlNajah.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/c2bwn4G.png"
  },
  {
   "name": "Al Qamar TV",
   "url": "https://streamer3.premio.link/alqamar/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/zkBT0C8.png"
  },
  {
   "name": "Al Quran Al Kareem TV",
   "url": "http://m.live.net.sa:1935/live/quran/gmswf.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://aloula.faulio.com/storage/mediagallery/da/6c/fullhd_7eaf7e165c4cad5b3a45eff65d2011e18be5d670.png"
  },
  {
   "name": "Al Rayyan Old TV",
   "url": "https://alrayyancdn.vidgyor.com/pub-nooldraybinbdh/liveabr/playlist_dvr.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/4qB5iN0.png"
  },
  {
   "name": "Al Rayyan TV",
   "url": "https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/Ts3RjTV.png"
  },
  {
   "name": "Al Saudiya Alaan",
   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-ksa-now/71ed3aa814c643306c0a8bc4fcc7d17f/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/sEOjApe.png"
  },
  {
   "name": "Al Sunnah Al Nabawiyah TV",
   "url": "http://m.live.net.sa:1935/live/sunnah/gmswf.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://aloula.faulio.com/storage/mediagallery/33/92/fullhd_879e557011826f507a045b4e0b4c3b57ba93edae.png"
  },
  {
   "name": "Al-Fady TV",
   "url": "https://5d658d7e9f562.streamlock.net/alfadytv.tv/alfadytv.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/7L0l0iY.png"
  },
  {
   "name": "Al-Sahat TV",
   "url": "https://assahat.b-cdn.net/Assahat/assahatobs/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/UVndAta.png"
  },
  {
   "name": "Al-Souriya TV",
   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-souriya-tv/e3150760fa5fd62776225433b8c3d406/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/8FILgXT.jpeg"
  },
  {
   "name": "Alalam News Channel Syria",
   "url": "http://live2.alalam.ir/alalam.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/WQKYPKD.png"
  },
  {
   "name": "Alerth Alnabawi Channel",
   "url": "http://82.212.74.2:8000/live/7307.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/iYibJxK.png"
  },
  {
   "name": "Alhaqeqa Aldawlia",
@@ -422,412 +510,494 @@
  {
   "name": "Alikhbaria Syria",
   "url": "http://185.9.2.18/chid_423/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://alikhbariah.com/wp-content/themes/alekhbariah-custom-theme/img/logo.webp"
  },
  {
   "name": "Alistiqama TV",
   "url": "https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/2FPtYZr.png"
  },
  {
   "name": "Alkarma TV Australia",
   "url": "https://5a8308add0b31.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/90ykspa.png"
  },
  {
   "name": "Alkarma TV Family",
   "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmaNA2.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/yUEuQA2.png"
  },
  {
   "name": "Alkarma TV Middle East",
   "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmame1.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/6OmNw5A.png"
  },
  {
   "name": "Alkarma TV North America & Canada",
   "url": "https://5aafcc5de91f1.streamlock.net/alkarmatv.com/alkarmana1.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/pnm60bq.png"
  },
  {
   "name": "Alkarma TV Praise",
   "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmapa.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/bJLKkou.png"
  },
  {
   "name": "Alkarma TV Talmaza Discipleship",
   "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmame2.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/t2ZkRbr.png"
  },
  {
   "name": "Alkarma TV Youth & English",
   "url": "https://5aafcc5de91f1.streamlock.net/alkarmatv.com/alkarmaus.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/kpuO8m7.png"
  },
  {
   "name": "Alkhuzama Radio",
   "url": "https://live.kwikmotion.com/sbrksakhuzamaradiolive/srpkhuzama/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://shahid.mbc.net/mediaObject/61010cbc-91c5-4ce1-94a4-ed40adadb97b"
  },
  {
   "name": "Almagd TV Middle East",
   "url": "https://597f64b67707a.streamlock.net/almagd.tv/almagd.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/3pUik3b.png"
  },
  {
   "name": "Almagd TV North America",
   "url": "https://5aafcc5de91f1.streamlock.net/almagd.tv/almagd.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/3pUik3b.png"
  },
  {
   "name": "Almahriah TV",
   "url": "https://starmenajo.com/hls/almahriah/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/GgEeTNr.png"
  },
  {
   "name": "Alwesam TV",
   "url": "https://stream.addresses-sat.com/Alwesam/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/rtqVAxf.png"
  },
  {
   "name": "Amou Yazid TV",
   "url": "http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/L8UPGPC.png"
  },
  {
   "name": "Arryadia",
   "url": "http://149.100.11.252:8000/play/a065/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/XjzK3gZ.png"
  },
  {
   "name": "Asharq News",
   "url": "https://live-news.asharq.com/asharq.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/bqRC3sl.png"
+ },
+ {
+  "name": "Asharq Radio",
+  "url": "https://svs.itworkscdn.net/asharqradiovlive/asharqradiov/playlist.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/M6K8cD3.jpeg"
  },
  {
   "name": "Asil TV",
   "url": "https://live.asil.tv/asiltv/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/gROQqFD.png"
  },
  {
   "name": "Assirat TV",
   "url": "https://softverse.b-cdn.net/Assirat/assiratobs/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/ps4Gtj0.png"
  },
  {
   "name": "Atfal & Mawaheb TV",
   "url": "https://5aafcc5de91f1.streamlock.net/atfal1.com/atfal2/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/Y2BqP9m.png"
  },
  {
   "name": "ATVSat",
   "url": "https://stream.atvsat.com/atvsatlive/smil:atvsatlive.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/pwM5txv.png"
  },
  {
   "name": "Bab Al Hara",
   "url": "https://shd-amg-fast.edgenextcdn.net/tx010/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/QtlnZbq.png"
  },
  {
   "name": "BabyFirst",
   "url": "https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/WxLHBwu.png"
  },
  {
   "name": "Big Time Plus",
   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-big-time-plus/924283f994779a311c1389698ff7e736/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://shahid.mbc.net/mediaObject/4e042cb6-500b-4e4c-a8ca-21a5a7a7a71b"
  },
  {
   "name": "Cartoon Network Arabic",
   "url": "http://149.100.11.252:8000/play/a056/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cartoon_Network_Arabic_logo.png/960px-Cartoon_Network_Arabic_logo.png"
  },
  {
   "name": "CGTN Arabic",
   "url": "https://dash3.antik.sk/live/test_cgtn_arb_tizen/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/AkFFrS7.png"
  },
  {
   "name": "Ch4Teen Documentary",
   "url": "https://ch14.tv/live/ch4teendoc/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/pHpFGeg.png"
  },
  {
   "name": "Chada TV",
   "url": "https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://freebox.cdn.scw.iliad.fr/medium_Logo_chada_tv_2ee1412d38.png"
  },
  {
   "name": "Charity TV",
   "url": "https://652930de05533.streamlock.net/live/ngrp:livestream_all/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/U9z8WBY.png"
  },
  {
   "name": "CNBC Arabiya",
   "url": "https://cnbc-live.akamaized.net/cnbc/master.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/CNBC_Arabia_2025.svg/960px-CNBC_Arabia_2025.svg.png"
  },
  {
   "name": "Coptic TV",
   "url": "https://ctv.icopts.app/CTV/index.fmp4.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://www.ctvchannel.tv/images/CTV-logo-white.png"
  },
  {
   "name": "Dabanga TV",
   "url": "https://hls.dabangasudan.org/hls/stream.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/BH1N6TA.png"
  },
  {
   "name": "DW Arabic",
   "url": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/8MRNFb9.png"
  },
  {
   "name": "El Radio 9090 FM",
   "url": "https://9090video.mobtada.com/hls/stream.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://www.9090.fm/images/logo.png"
  },
  {
   "name": "El Watania 1",
   "url": "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/gNr2V14.png"
  },
  {
   "name": "El Watania 2",
   "url": "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/playlist.m3u8?DVR",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/kgkrD3V.png"
  },
  {
   "name": "Elbeshara GTV",
   "url": "http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/b0Wx7pE.png"
  },
  {
   "name": "Elsharq TV",
   "url": "https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/8vmfZb5.png"
  },
  {
   "name": "Elyssa TV",
   "url": "https://tv.elyssatv.com/live/master.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://tv.elyssatv.com/logo.png"
  },
  {
   "name": "ERi-TV 1",
   "url": "https://jmc-live.ercdn.net/eritreatv/eritreatv.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/bTR0Huw.png"
  },
  {
   "name": "Fairuz",
   "url": "https://shd-amg-fast.edgenextcdn.net/tx029/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://shahid.mbc.net/mediaObject/f809d51c-e83d-43c9-8236-78731c2216ad?type=png"
  },
  {
   "name": "Falastini TV",
   "url": "https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/6B3Cims.png"
  },
  {
   "name": "France 24 Arabic",
   "url": "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FRANCE_24/images/LOGO_HD/image.png"
  },
  {
   "name": "Future TV",
   "url": "https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/OaqEpwe.png"
  },
  {
   "name": "God Stands Kids Club TV Arabic",
   "url": "https://online.godstands.tv:5443/WebRTCApp/streams/KidsArabic.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/FxDBbpz.jpeg"
  },
  {
   "name": "God Stands TV Arabic",
   "url": "https://online.godstands.tv:5443/WebRTCApp/streams/Arabic.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/EO6cYUI.png"
  },
  {
   "name": "Habib TV",
   "url": "https://ncdn.telewebion.ir/habib/live/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.ibb.co/spZRy7mg/habib.png"
  },
  {
   "name": "Hala TV",
   "url": "https://stream.panet.com/edge/halaTV/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/028M4Ew.png"
  },
  {
   "name": "Halab Today TV",
   "url": "https://halabtoday-live.lg.mncdn.com/halabtoday/livestream/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://pbs.twimg.com/profile_images/1779495135841075200/aPINrLwe_400x400.png"
  },
  {
   "name": "Holy Quran Radio",
   "url": "https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://aloula.faulio.com/storage/mediagallery/14/da/fullhd_823bc2fe722ede75410492d57fd6c201208b4224.png"
  },
  {
   "name": "Holy Quran Radio Nablus",
   "url": "http://streaming.zaytonatube.com:8080/holyquran/holyquran/video.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://quran-radio.com/assets/images/site/quran-radio-logo-h-rtl.png"
  },
  {
   "name": "Hya TV",
   "url": "https://freem3u.xyz/api/live/play.m3u8?vid=187",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/XjBIi0e.png"
  },
  {
   "name": "i24NEWS Arabic",
   "url": "https://hlspackager.akamaized.net/live/DB/i24_ARABIC/HLS/i24_ARABIC.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png"
  },
  {
   "name": "iFilm Arabic",
   "url": "https://live.presstv.co.uk/hls/ifilmar.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png"
  },
  {
   "name": "Iqraa Africa & Europe",
   "url": "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv1/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/nUlZvSe.png"
  },
  {
   "name": "Jeddah Radio",
   "url": "https://live.kwikmotion.com/sbrksajeddahradiolive/srpksajeddahradio/chunks.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://aloula.faulio.com/storage/mediagallery/bd/f5/fullhd_527bf54a5adb56ac17f572ac2cd0801304db3baf.png"
  },
  {
   "name": "Jordan Archive",
   "url": "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Archive/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/8UrCl4k.png"
  },
  {
   "name": "Jordan Comedy",
   "url": "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Comedy/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/DuwwoO2.png"
  },
  {
   "name": "Jordan Drama",
   "url": "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Drama/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/gvIAEsJ.png"
  },
  {
   "name": "Jordan Kitchen",
   "url": "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/cooking/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/B45qcQX.png"
  },
  {
   "name": "Jordan Songs",
   "url": "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Song/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/1DE7Gmw.png"
  },
  {
   "name": "Jordan Tourism",
   "url": "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Tourism/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/gpeIoU9.png"
  },
  {
   "name": "Kaifa TV",
   "url": "http://82.212.74.2:8000/live/7311.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/zGGeSQg.png"
  },
  {
   "name": "Koogi TV",
   "url": "https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/zojMTP9.png"
  },
  {
   "name": "Lana TV",
   "url": "https://cdn.streamlane.tv/hls/ltv/master.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/xPoycVY.png"
  },
  {
   "name": "LBC",
   "url": "http://185.9.2.18/chid_327/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://s3.eu-central-1.amazonaws.com/rotana.website/channels/1688402500.webp"
  },
  {
   "name": "LBC International",
   "url": "http://185.9.2.18/chid_521/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/h26xtUv.png"
  },
  {
   "name": "LLBN TV Arabic",
   "url": "https://brightstar-arabic-pull-secure.akamaized.net/brightstararabic/stream.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/fbrQpC4.png"
  },
  {
   "name": "Logos TV (United States)",
   "url": "https://5a8308add0b31.streamlock.net/logoschannel.com/logostv.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/h8DioXU.png"
  },
  {
   "name": "LoveWorld Arabic",
   "url": "https://go5lm6a6dawb-hls-live.5centscdn.com/lwarabic/53132d996b4263ec0d7b602292c46eaf.sdp/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/KYMjRjK.png"
  },
  {
   "name": "Ma'an TV",
   "url": "https://htvmada.mada.ps:4443/maannews/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/hRFa03k.png"
  },
  {
   "name": "MahdawiounTV",
   "url": "https://live.mahdawioun.tv/stream/mahdawioun/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://mahdawioun.tv/wp-content/uploads/2024/03/New-Logo-Color.png"
  },
  {
   "name": "Majid Al Mohandis",
   "url": "https://shd-amg-fast.edgenextcdn.net/tx019/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.discogs.com/Fk9Bm8gTYJYeVXIJKX-EOGmYQ90sVQPtkIW5ZK4fydo/rs:fit/g:sm/q:90/h:372/w:412/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE2OTY4/MzMtMTU2ODk0NjI5/MC01Njk2LmpwZWc.jpeg"
  },
  {
   "name": "Makan 33",
   "url": "https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/RVtQTed.png"
  },
  {
   "name": "Maraya",
   "url": "https://shd-amg-fast.edgenextcdn.net/tx008/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://shahid.mbc.net/mediaObject/d089a559-4f41-4def-a786-f98fcfbf0464?height=auto&width=288&croppingPoint=&version=1&type=png"
  },
  {
   "name": "Master Chefs Academy TV",
   "url": "https://platform-iuoamc.uk/iptv/mca-tv/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://platform-iuoamc.uk/storage/tv/branding/mca-tv-official-logo.png"
  },
  {
   "name": "Mazzika",
   "url": "http://149.100.11.235:8080/Mazzika/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/P7PUHIx.png"
  },
  {
   "name": "MBC Mood",
   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-mood/78367bf48ccdba501d0d014a10c21031/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://shahid.mbc.net/mediaObject/c2b6a882-458b-446e-b0fe-f97f7992149a?height=auto&width=144&croppingPoint=&version=1&type=png"
  },
  {
   "name": "Medi1TV Arabic",
   "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/3YsZPY6.jpeg"
  },
  {
   "name": "Medi1TV Maghreb",
   "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/F5OFQsp.jpeg"
  },
  {
   "name": "Mekameleen TV",
   "url": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8",
-  "group": "قنوات عربية"
- },
- {
-  "name": "Melody FM",
-  "url": "https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/q7iVchl.png"
  },
  {
   "name": "mfm",
@@ -837,62 +1007,74 @@
  {
   "name": "Miracle Channel",
   "url": "https://live.miracleonline.org/hls/miracle1.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/yrt7Rw9.png"
  },
  {
   "name": "Mission Asia",
   "url": "https://livecdn.live247stream.com/missionasia/tv/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/B5mKwF6.png"
  },
  {
   "name": "Mohammed Abdo",
   "url": "https://d2ow8h651gs7dx.cloudfront.net/out/v1/371fb663da604e659a2fb99bf89d92d4/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://assets.mbcmood.com/channels/1720184012Mohammed%20Abdo%20banner.png"
  },
  {
   "name": "Mosaique FM",
   "url": "https://webcam.mosaiquefm.net/mosatv/_definst_/studio/playlist.m3u8?DVR",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/GDUykah.png"
  },
  {
   "name": "Movies Action",
   "url": "https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/NIVhISa.png"
  },
  {
   "name": "Movies Thriller",
   "url": "https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/JWihdcl.png"
  },
  {
   "name": "MTA1 World",
   "url": "https://chlivemta1.akamaized.net/hls/live/2008145/mta1/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/bYiRfAg.png"
  },
  {
   "name": "MTA2 Europe",
   "url": "https://chlivemta1.akamaized.net/hls/live/2008145/mta2/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/aVts0sz.png"
  },
  {
   "name": "MTA3 Al-Arabia",
   "url": "https://chlivemta1.akamaized.net/hls/live/2010556/mta3alarabia/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/m3PEldJ.png"
  },
  {
   "name": "MTA6 Asia",
   "url": "https://livemtaasia.akamaized.net/hls/live/2039224/mta6asia/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/nhCNPJI.png"
  },
  {
   "name": "MTA7 Asia",
   "url": "https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/3Nl8Tpu.png"
  },
  {
   "name": "MTV Lebanon",
   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mtv-lebanon/b8ebb2a5affb812f1541712adde10e26/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/7/75/Murr_tv.png"
  },
  {
   "name": "Muslim Network TV",
@@ -902,1002 +1084,1160 @@
  {
   "name": "News of the World Arabic",
   "url": "https://live.nowtelly.com/now_arabic/live/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/MfyRQCs.png"
  },
  {
   "name": "Nidae AlIslam Radio",
   "url": "https://live.kwikmotion.com/sbrksanedaradiolive/srpksanedaradio/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://aloula.faulio.com/storage/mediagallery/0f/c5/fullhd_5da380cdfc304fd7d4672a83aeb6c62bc1d3d3e8.png"
  },
  {
   "name": "Nour Al Koddass",
   "url": "https://svs.itworkscdn.net/nour1satlive/livestream/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/dF4Mvts.png"
  },
  {
   "name": "Nour Al Sharq",
   "url": "https://svs.itworkscdn.net/nour8satlive/livestream/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/EEy2dUr.png"
  },
  {
   "name": "Noursat",
   "url": "https://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/6Zs5rx4.png"
+ },
+ {
+  "name": "Oman TV Cultural",
+  "url": "https://partwota.cdn.mgmlcdn.com/omcultural/smil:omcultural.stream.smil/chunklist.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/b38wNPK.png"
  },
  {
   "name": "Oman TV Mubashir",
   "url": "https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/UkQTR5b.png"
  },
  {
   "name": "One TV",
   "url": "https://hms.pfs.gdn/v1/broadcast/one/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/O4DuR9G.png"
  },
  {
   "name": "OneFM",
   "url": "https://hms.pfs.gdn/v1/broadcast/onefm/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.ibb.co/Vp2G9wTz/onefmlb.png"
  },
  {
   "name": "OTV (Lebanon)",
   "url": "https://otv.hibridcdn.net/otv/tv_abr/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/toxFMeY.png"
  },
  {
   "name": "Palestine Al Yawm",
   "url": "https://live.paltodaytv.com/paltv/live/playlist_sfm4s.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/n8dSgx4.png"
  },
  {
   "name": "Palestinetv",
   "url": "https://ncdn.telewebion.ir/palestine/live/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.ibb.co/svrZNZTX/Palestine.png"
  },
  {
   "name": "Panorama FM",
   "url": "https://d6izdil55uftn.cloudfront.net/out/v1/0a06d1d6377c47edbd48721ed724bd08/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/JkDD3bK.png"
  },
  {
   "name": "Prime (Syria)",
   "url": "https://cdn.bestream.io/prime/prime.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://prime1tv.com/wp-content/uploads/2025/12/7-1.png"
  },
  {
   "name": "Pulse95 Radio",
   "url": "https://svs.itworkscdn.net/pulse95live/pulse96/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://maraya.faulio.com/storage/mediagallery/60/26/fullhd_d5c3c81b0562a76bc63f073a5e0947f309b0215b.png"
  },
  {
   "name": "Qatar Television 2",
   "url": "https://live.kwikmotion.com/qtv2live/qtv2.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/iWJxDUm.png"
  },
  {
   "name": "Qatar Television",
   "url": "https://live.kwikmotion.com/qtv1live/qtv1.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/N5RB4sp.png"
  },
  {
   "name": "Qatar TV The Holy Quran",
   "url": "https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://www.qmc.qa/img/LiveChannels/1ca67a44-9290-4b2a-8a16-d8c6e2260816.jpg"
  },
  {
   "name": "Rabeh Saqer",
   "url": "https://shd-amg-fast.edgenextcdn.net/tx004/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://shahid.mbc.net/mediaObject/b98b0635-c8ed-4a7c-9efa-5856e278f54b?type=png"
  },
  {
   "name": "Radio Albalad TV",
   "url": "http://streaming.zaytonatube.com:8080/radioalbalad/radioalbalad/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/7/71/Nothing_whitespace_blank.png"
  },
  {
   "name": "Radio Fann Jordan Studio",
   "url": "http://45.63.116.205/hls2/stream1.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://cdn-profiles.tunein.com/s142626/images/logod.jpg"
  },
  {
   "name": "Radio Yaqeen Jordan City View",
   "url": "http://45.63.116.205/hls4/stream1.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/wHOQU0R.png"
  },
  {
   "name": "Rajeen TV",
   "url": "https://mn-nl.mncdn.com/palabroad/live/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/6Cx22ya.png"
  },
  {
   "name": "RASD TV",
   "url": "https://cloud.streamingconnect.tv/hls/rasdtv2/rasdtv.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/9Pb8806.png"
  },
  {
   "name": "Rashid AlMajed",
   "url": "https://dphwv2ufgnfsq.cloudfront.net/out/v1/59cd80dfe93a479eb8b4d79bc6f225ca/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://assets.mbcmood.com/channels/1720177618Rashid%20AlMajed.webp"
  },
  {
   "name": "Red TV Lebanon",
   "url": "https://live.kwikmotion.com/redtvlive/redtv.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/bWwY885.png"
  },
  {
   "name": "Rojava TV",
   "url": "https://hlspackager.akamaized.net/live/DB/ROJAVA_HD/HLS/ROJAVA_HD.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/42noysO.png"
  },
  {
   "name": "Ronahi TV",
   "url": "https://hlspackager.akamaized.net/live/DB/RONAHI_TV/HLS/RONAHI_TV.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/JSvJpD8.png"
  },
  {
   "name": "Rotana Radio Jordan Studio",
   "url": "http://45.63.116.205/hls/stream1.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/xGDjlp5.png"
  },
  {
   "name": "Rotana Tarab Jordan City View",
   "url": "http://45.63.116.205/hls3/stream1.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/NjgOBts.png"
  },
  {
   "name": "Roya TV (Jordan)",
   "url": "https://live.kwikmotion.com/royatvpublic/royatv.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/WX80rty.png"
  },
  {
   "name": "RT Arabic",
   "url": "https://rt-arb.rttv.com/dvr/rtarab/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/G8vGrn1.png"
  },
  {
   "name": "Safeer TV",
   "url": "https://cdn3.wowza.com/1/YStGZlJRdktzZkdK/VXROZWNW/hls/live/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://image.roku.com/developer_channels/prod/8389e15af8fe49ac7c36d201c24ebf62fbe5b22897c2879ca26ae936e0ed308d.png"
  },
  {
   "name": "Sahara 24",
   "url": "https://live.saharamedias.net:3317/live/shara24live.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/pnzWYwT.png"
  },
  {
   "name": "Sat 7 Arabic",
   "url": "https://svs.itworkscdn.net/sat7arabiclive/sat7arabic.smil/playlist_dvr.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/BzDjQeQ.png"
  },
  {
   "name": "Sat 7 Kids",
   "url": "https://svs.itworkscdn.net/sat7kidslive/sat7kids.smil/playlist_dvr.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/M0ik0i2.png"
  },
  {
   "name": "Saudi Thaqafiya TV",
   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc049ce15d3973f494b/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://shahid.mbc.net/mediaObject/55f69983-5b4b-47c7-9c25-06ed5ad860a4?height=auto&width=512&croppingPoint=&version=1&type=jpeg"
  },
  {
   "name": "Saudia Radio",
   "url": "https://live.kwikmotion.com/sbrksasaudiaradiolive/srpksasaudiaradio/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://aloula.faulio.com/storage/mediagallery/32/f9/fullhd_4c7e170fe0169d36ed17d45a645d4e69fb961793.png"
  },
  {
   "name": "SBC",
   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/9JSQglj.png"
  },
  {
   "name": "Senses TV",
   "url": "http://31.14.41.69:8080/hls/sensesonline/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/hnTx8eK.png"
  },
  {
   "name": "Shabab FM",
   "url": "https://streaming.zaytonatube.com:8081/ShababFM/shabab/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/4Cyz4Bn.png"
  },
  {
   "name": "Sharjah Radio",
   "url": "https://svs.itworkscdn.net/smcradiolive/smcradiolive/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/q7GGALe.png"
  },
  {
   "name": "Sharjah Radio Quran",
   "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/MxZlOvc.png"
  },
  {
   "name": "Sharjah TV",
   "url": "https://live.kwikmotion.com/smc1live/smc1tv.smil/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/Oz2bPOt.png"
  },
  {
   "name": "Sky News Arabia",
   "url": "https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/SvjU4h6.png"
  },
  {
   "name": "Sky News Arabia SD",
   "url": "https://stream.skynewsarabia.com/ott/ott.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/SvjU4h6.png"
  },
  {
   "name": "Sky News Arabia Vertical",
   "url": "https://live-stream.skynewsarabia.com/c-vertical-channel/vertical-stream/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/FjtzQQs.png"
  },
  {
   "name": "Sky News Arabia Vertical SD",
   "url": "https://stream.skynewsarabia.com/vertical/vertical.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/FjtzQQs.png"
  },
  {
   "name": "StoryChannel TV",
   "url": "https://136044159.r.cdnsun.net/storychannel.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/ZBV6xph.png"
  },
  {
   "name": "Sudan TV",
   "url": "https://cdn-globecast.akamaized.net/live/eds/sudan_tv/hls_roku/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/XUPAYAA.png"
  },
  {
   "name": "Syria TV",
   "url": "https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/FjuVuXF.jpeg"
  },
  {
   "name": "Taha TV",
   "url": "https://stream.starmenajo.com/hls/app/live/ts:fhd.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/hdsrxvX.png"
  },
  {
   "name": "Takbeer TV",
   "url": "https://cd198.anystream.uk:9092/iqapp/t5kb86tv/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/Cvnps2J.jpg"
  },
  {
   "name": "Tanasuh TV",
   "url": "https://kilolink.pulsarstarsolutions.com/live/smil:tanasuhtv.smil/manifest.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/iBAhM2v.png"
  },
  {
   "name": "Tarab",
   "url": "https://shd-amg-fast.edgenextcdn.net/tx002/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://assets.mbcmood.com/channels/1738059679TARAB_Logo.png"
  },
  {
   "name": "Tele Tchad",
   "url": "https://strhlslb01.streamakaci.tv/str_tchad_tchad/str_tchad_multi/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/udSzfHD.png"
  },
  {
   "name": "Thaqalayn TV",
   "url": "http://62.60.207.173:8080/hls/thaqalayn/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/u02FSgI.png"
  },
  {
   "name": "Thikrayat TV",
   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/8cfa8fe0c96275735745b89c683b27e3/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/AKa1X9d.png"
  },
  {
   "name": "TRT Arabi",
   "url": "https://tv-trtarabi.medya.trt.com.tr/master.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/dEfI2M9.png"
  },
  {
   "name": "Turkmenistan",
   "url": "https://alpha.tv.online.tm/hls/ch007.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/iBBpBx4.png"
  },
  {
   "name": "TV2 (Algeria)",
   "url": "http://185.9.2.18/chid_347/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/VEb631f.png"
  },
  {
   "name": "Vilayet TV",
   "url": "https://nl.livekadeh.com/hls2/vilayet.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://vilayet.tv/wp-content/uploads/elementor/thumbs/logo-q3w2md1u47q39x7d0004wqzz74xdv1glw356ex6ph0.png"
  },
  {
   "name": "Watan TV",
   "url": "https://rp.tactivemedia.com/watantv_source/live/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/pZyKaUH.png"
  },
  {
   "name": "Watar Radio",
   "url": "https://svs.itworkscdn.net/smcwatarlive/smcwatar/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://sbauae.faulio.com/storage/mediagallery/d2/ad/fullhd_48adf2291d08266c05ed1b0c24f326c86b1095b7.png"
  },
  {
   "name": "Watar TV",
   "url": "http://htvint.mada.ps:8889/orient/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/jdr22Sk.jpeg"
  },
  {
   "name": "Wattan TV",
   "url": "https://htvmada.mada.ps:4443/wattan/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/sf2A9vT.png"
  },
  {
   "name": "Welat TV",
   "url": "https://stream.badinan.xyz/welat/tv/playlist.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://avatars.githubusercontent.com/u/213803648?s=400&u=e27c09d39f813b9698de9c6559cbf7f196bf6fce&v=4"
  },
  {
   "name": "Yemen Today TV",
   "url": "https://video.yementdy.tv/hls/yementoday.m3u8",
-  "group": "قنوات عربية"
- },
- {
-  "name": "Zarin TV",
-  "url": "https://fl1002.bozztv.com/gf-zarintv/index.m3u8",
-  "group": "قنوات عربية"
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/8TzcJu5.png"
  },
  {
   "name": "Al Iraqia Sport",
   "url": "https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/DrrlxTO.png"
  },
  {
   "name": "Bahrain Sports 1",
   "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/fBpLsbC.png"
  },
  {
   "name": "Jordan Sport",
   "url": "https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/2EmrZPQ.png"
  },
  {
   "name": "KTV Sport",
   "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/R1hGX1d.png"
  },
  {
   "name": "KTV Sport Plus",
   "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/l4oX0gf.png"
  },
  {
   "name": "Oman Sports TV",
   "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/1omi7p8.png"
  },
  {
   "name": "30A Golf Kingdom",
   "url": "https://30a-tv.com/feeds/vidaa/golf.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/Lv53nh4.png"
  },
  {
   "name": "ACI Sport TV SD",
   "url": "https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/U8cHMOt.png"
  },
  {
   "name": "Africa 24 Sport",
   "url": "https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2023/12/LOGO-AFRICASPORT-4-HD-sans-fond.png?fit=512%2C107&ssl=1"
  },
  {
   "name": "AS3 Sport TV",
   "url": "https://streamtv.as3sport.online:3394/hybrid/play.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.ibb.co/bRmGbsyV/A3-SPORTTV.jpg"
  },
  {
   "name": "Astrahan.Ru Sport",
   "url": "https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/BKaEtqL.png"
  },
  {
   "name": "beIN Sports USA",
   "url": "https://tvsen6.aynaott.com/beinsports/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png"
  },
  {
   "name": "beIN SPORTS XTRA",
   "url": "https://bein-xtra-bein.amagi.tv/playlist.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.ibb.co/HT49GPmB/XTRA-2.png"
  },
  {
   "name": "beIN SPORTS XTRA en Espanol",
   "url": "https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/V562tpO.png"
  },
  {
   "name": "BEK Sports West",
   "url": "https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/1l3t5jd.png"
+ },
+ {
+  "name": "Canal+ Sport",
+  "url": "http://tv.streambox.fr/live/testlivestream/testlivestream/31.m3u8",
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/EOXnU15.png"
  },
  {
   "name": "CBS Sports Golazo Network",
   "url": "https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/eMjutHS.png"
  },
  {
   "name": "CBS Sports HQ",
   "url": "https://jmp2.uk/plu-5e9f2c05172a0f0007db4786.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/q8BENJg.png"
  },
  {
   "name": "CCTV-Golf & Tennis",
   "url": "http://38.75.136.137:98/gslb/dsdqpub/gefwq.m3u8?auth=testpub",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/iqJJTmH.png"
  },
  {
   "name": "Claro Sports",
   "url": "http://45.171.64.30:6060/play/a00w/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/n0kd17r.png"
  },
  {
   "name": "CT Sport",
   "url": "http://88.212.15.50/live/test_ctsport_25p/playlist.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%C4%8CT_sport_logo.png/960px-%C4%8CT_sport_logo.png"
  },
  {
   "name": "DAZN 3 Portugal",
   "url": "http://23.237.104.106:8080/DAZN_3/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/2rXsq2m.png"
  },
  {
   "name": "DAZN Combat",
   "url": "https://jmp2.uk/plu-64d626ac9b414d000820e2fc.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.postimg.cc/VsW3Jsrz/logo-DAZN-Combat.png"
  },
  {
   "name": "DAZN Darts x Pluto TV",
   "url": "https://jmp2.uk/plu-64b67f0424ade50008a3be17.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://images.pluto.tv/channels/64b67f0424ade50008a3be17/colorLogoPNG.png"
  },
  {
   "name": "DAZN Heldinnen x Pluto TV",
   "url": "https://jmp2.uk/plu-64afe50c5dc16600087f3227.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://images.pluto.tv/channels/64afe50c5dc16600087f3227/colorLogoPNG.png"
  },
  {
   "name": "DD Sports",
   "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540"
  },
  {
   "name": "DD Sports HD",
   "url": "https://cdn.pishow.tv/ott/live/1161/master.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540"
  },
  {
   "name": "Eleven Sports 1",
   "url": "http://92.114.85.87:8002/play/a00e/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/AOu4FXH.png"
  },
  {
   "name": "Eleven Sports 2",
   "url": "http://92.114.85.87:8002/play/a00f/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/bTIRgqG.png"
  },
  {
   "name": "Eleven Sports 3",
   "url": "http://92.114.85.87:8002/play/a00g/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/bWjGol4.png"
  },
  {
   "name": "Eleven Sports 4",
   "url": "http://92.114.85.87:8002/play/a00h/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/SEKXaAW.png"
  },
  {
   "name": "ESPN 2 (United States) HD",
   "url": "http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8",
-  "group": "قنوات رياضية"
- },
- {
-  "name": "ESPN 2 Latin America",
-  "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/00tsvjE.png"
  },
  {
   "name": "ESPN 2 Latin America Colombia",
   "url": "http://190.61.47.54:8000/play/a005/index.m3u8",
-  "group": "قنوات رياضية"
- },
- {
-  "name": "ESPN 3 Latin America",
-  "url": "https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png"
  },
  {
   "name": "ESPN 4 (Brazil)",
   "url": "http://181.78.197.59:8000/play/a07n/index.m3u8",
-  "group": "قنوات رياضية"
- },
- {
-  "name": "ESPN 4 Latin America",
-  "url": "https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.m3u8",
-  "group": "قنوات رياضية"
- },
- {
-  "name": "ESPN 5 Latin America",
-  "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.m3u8",
-  "group": "قنوات رياضية"
- },
- {
-  "name": "ESPN 6 Latin America",
-  "url": "https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.m3u8",
-  "group": "قنوات رياضية"
- },
- {
-  "name": "ESPN 7 Latin America",
-  "url": "https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/960px-ESPN_4_logo.svg.png"
  },
  {
   "name": "ESPN (Brazil)",
   "url": "http://181.78.197.59:8000/play/a07z/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png"
  },
  {
   "name": "ESPN (United States) HD",
   "url": "http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8",
-  "group": "قنوات رياضية"
- },
- {
-  "name": "ESPN Latin America",
-  "url": "https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://imgx.fubo.tv/station_logos/espn-hd_c.png"
  },
  {
   "name": "ESPN Latin America Colombia",
   "url": "http://190.61.47.54:8000/play/a004/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png"
  },
  {
   "name": "ESPN Latin America Mexico",
   "url": "http://168.228.44.241:9997/play/a06p/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png"
  },
  {
   "name": "ESPN Premium HD",
   "url": "http://158.172.155.130:8000/play/a0ao/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/960px-ESPN_Premium_logo.svg.png"
  },
  {
   "name": "Eurosport 1 Czechia",
   "url": "http://88.212.7.14/live/test_esp1_hevc_tizen/playlist.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/olQJgm7.png"
  },
  {
   "name": "Eurosport 1 Germany",
   "url": "http://90.183.52.46:4000/play/a06v/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/olQJgm7.png"
  },
  {
   "name": "Eurosport 1 Hungary",
   "url": "http://88.212.7.14/live/esp1_hun/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/olQJgm7.png"
  },
  {
   "name": "Eurosport 1 Portugal",
   "url": "http://185.228.163.146:8000/play/a03z/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/olQJgm7.png"
  },
  {
   "name": "Eurosport 1 Russia",
   "url": "https://s7.iptv-24.net/1439/playlist.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/olQJgm7.png"
  },
  {
   "name": "Eurosport 1 Spain",
   "url": "http://45.134.141.161:2200/ARG/Eurosport_1_HD/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/olQJgm7.png"
  },
  {
   "name": "Eurosport 2 Czechia",
   "url": "http://88.212.7.14/live/test_esp2_hevc_tizen/playlist.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/f56dHgR.png"
  },
  {
   "name": "Eurosport 2 Hungary",
   "url": "http://88.212.7.14/live/esp2_hun/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/f56dHgR.png"
  },
  {
   "name": "Eurosport 2 Portugal",
   "url": "http://185.228.163.146:8000/play/a048/index.m3u8",
-  "group": "قنوات رياضية"
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/f56dHgR.png"
  },
  {
   "name": "ABC News",
   "url": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/BrW7gk8.png"
  },
  {
   "name": "ABC News Live 1",
   "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png"
  },
  {
   "name": "ABC News Live 2",
   "url": "https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png"
  },
  {
   "name": "ABC News Live 3",
   "url": "https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png"
  },
  {
   "name": "ABC News Live 4",
   "url": "https://abcnews-streams.akamaized.net/hls/live/2023563/abcnewshudson4/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png"
  },
  {
   "name": "ABC News Live 5",
   "url": "https://abcnews-streams.akamaized.net/hls/live/2023564/abcnewshudson5/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png"
  },
  {
   "name": "ABC News Live 6",
   "url": "https://abcnews-streams.akamaized.net/hls/live/2023565/abcnewshudson6/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png"
  },
  {
   "name": "ABC News Live 7",
   "url": "https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png"
  },
  {
   "name": "ABC News Live 8",
   "url": "https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png"
  },
  {
   "name": "ABC News Live 9",
   "url": "https://abcnews-streams.akamaized.net/hls/live/2023568/abcnewshudson9/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png"
  },
  {
   "name": "ABC News Live 10",
   "url": "https://abcnews-streams.akamaized.net/hls/live/2023569/abcnewshudson10/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png"
  },
  {
   "name": "ABC News Live",
   "url": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png"
  },
  {
   "name": "Al Arabiya English",
   "url": "https://live.alarabiya.net/alarabiapublish/english/playlist_dvr.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://shahid.mbc.net/mediaObject/7cfc0baf-1201-477f-b722-d3099fafe17f?height=230&width=512&croppingPoint=&version=1&type=png"
  },
  {
   "name": "Al Jazeera English",
   "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
-  "group": "قنوات عالمية"
- },
- {
-  "name": "Al Jazeera English HD",
-  "url": "http://stream.mcquack.net/131/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/7bRVpnu.png"
  },
  {
   "name": "Antena 3 CNN HD",
   "url": "https://live77cdn2.antenaplay.ro/live2_aws4_sdi02/live2_aws4_sdi02_5000k.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://static.wikia.nocookie.net/logopedia/images/8/82/Antena_3_CNN_2022_v1.png/revision/latest/scale-to-width-down/512"
  },
  {
   "name": "Arirang TV",
   "url": "http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/Asu5pE9.png"
  },
  {
   "name": "Arirang TV HD",
   "url": "https://freem3u.xyz/api/live/play.m3u8?vid=111",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/Asu5pE9.png"
  },
  {
   "name": "Arirang UN",
   "url": "https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/Jdy3WNm.png"
  },
  {
   "name": "BBC News North America",
   "url": "http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png"
  },
  {
   "name": "BBC News South Asia",
   "url": "https://mumbai-edge.smartplaytv.in/BBCNews/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png"
  },
  {
   "name": "CBS News 24/7",
   "url": "https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png"
  },
  {
   "name": "CBS News Baltimore",
   "url": "https://lineup.cbsivideo.com/playout/8877a7d5-b094-4ac8-bc72-75a5fed68e5b/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/jy3UfCe.png"
  },
  {
   "name": "CBS News Bay Area",
   "url": "https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://static.wikia.nocookie.net/logopedia/images/1/1a/Logo-cbsn-bayarea-1920x1080.jpg/revision/latest/scale-to-width-down/512"
  },
  {
   "name": "CBS News Boston",
   "url": "https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb8434c96c28de0370d1326/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/9un7R3N.png"
  },
  {
   "name": "CBS News Chicago",
   "url": "https://cbsn-chi.cbsnstream.cbsnews.com/out/v1/b2fc0d5715d54908adf07f97d2616646/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/qGbVQir.png"
  },
  {
   "name": "CBS News Colorado",
   "url": "https://cbsn-den.cbsnstream.cbsnews.com/out/v1/2e49baf2906244ecb01b07d9885fbe7a/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/2oyYwBw.png"
  },
  {
   "name": "CBS News Detroit",
   "url": "https://cbsn-det.cbsnstream.cbsnews.com/out/v1/169f5c001bc74fa7a179b19c20fea069/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/cMels2Y.png"
  },
  {
   "name": "CBS News Los Angeles",
   "url": "https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/klULxMV.png"
  },
  {
   "name": "CBS News Miami",
   "url": "https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/DExbVa9.png"
  },
  {
   "name": "CBS News Minnesota",
   "url": "https://cbsn-min.cbsnstream.cbsnews.com/out/v1/76518f06941246ba810c8d175600bf74/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/ubxwfMY.png"
  },
  {
   "name": "CBS News New York",
   "url": "https://cbsn-ny.cbsnstream.cbsnews.com/out/v1/ec3897d58a9b45129a77d67aa247d136/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/bpc4v0u.png"
  },
  {
   "name": "CBS News Philly",
   "url": "https://cbsn-phi.cbsnstream.cbsnews.com/out/v1/5c9ad3e215984b0e9ad845b335216b72/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/FmtTbNY.png"
  },
  {
   "name": "CBS News Pittsburgh",
   "url": "https://cbsn-pit.cbsnstream.cbsnews.com/out/v1/6966dabf8150405ab26f854e3cd6a2b8/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/Un9IrUh.png"
  },
  {
   "name": "CBS News Sacramento",
   "url": "https://lineup.cbsivideo.com/playout/c1ed69db-6b71-4581-a937-a70ab4089f8a/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/0e1kSGX.png"
  },
  {
   "name": "CGTN",
   "url": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png"
  },
  {
   "name": "CGTN French",
   "url": "https://amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/BwhledK.png"
  },
  {
   "name": "CNBC UK",
   "url": "https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png"
  },
  {
   "name": "CNN",
   "url": "https://tvsen6.aynaott.com/cnn/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png"
  },
  {
   "name": "CNN HD",
   "url": "http://212.5.144.156:8080/cnn/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png"
  },
  {
   "name": "CNN Brasil",
   "url": "https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/CNN_Brasil.svg/960px-CNN_Brasil.svg.png"
  },
  {
   "name": "CNN en Espanol",
   "url": "https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/960px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png"
  },
  {
   "name": "CNN International",
   "url": "https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/CNN-International-Logo.svg/960px-CNN-International-Logo.svg.png"
  },
  {
   "name": "CNN International Latin America",
   "url": "http://168.228.44.241:9997/play/a073/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/CNN-International-Logo.svg/960px-CNN-International-Logo.svg.png"
  },
  {
   "name": "CNN International North America",
   "url": "https://d2sybdl23b9psq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bocx3i7bjz0dg/CNNFAST_GB.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/CNN-International-Logo.svg/960px-CNN-International-Logo.svg.png"
  },
  {
   "name": "CNN News 18",
   "url": "https://n18syndication.akamaized.net/bpk-tv/CNN_News18_NW18_MOB/output01/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://dtil.tmsimg.com/assets/s142747_ld_h15_aa.png?lock=720x540"
  },
  {
   "name": "CNN Originals",
   "url": "https://amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv/playlist/amg01918-cnnus-cnnoriginals-vizious/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://provider-static.plex.tv/epg/cms/production/f351d697-1e1f-4e7d-86c7-5995698e593f/CNN_Originals_ChannelLogo_Dark_1500x1000_2025_-_Grace_Hartwig.png"
  },
  {
   "name": "CNN Portugal",
   "url": "https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/cnnpt.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/bc6tYVZ.png"
  },
  {
   "name": "CNN Prima News",
   "url": "http://88.212.15.50/live/test_cnn_pirma_news/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/elZyUjX.png"
  },
  {
   "name": "DW English",
   "url": "https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/8MRNFb9.png"
  },
  {
   "name": "DW Espanol",
   "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/8MRNFb9.png"
  },
  {
   "name": "DW Russian",
   "url": "https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/8MRNFb9.png"
  },
  {
   "name": "Euronews",
   "url": "https://cdn-euronews.akamaized.net/live/eds/euronews-pl/26382/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/bc84c3b7-6008-4ee3-8f6a-e4bb4365f082-width200-quality90.jpeg"
  },
  {
   "name": "Euronews English",
   "url": "https://jmp2.uk/plu-61de96114757070008d33cae.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png"
  },
  {
   "name": "Euronews English HD",
   "url": "https://dash4.antik.sk/live/test_euronews/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png"
  },
  {
   "name": "Euronews French",
   "url": "https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/8t9mdg9.png"
  },
  {
   "name": "Euronews German",
   "url": "https://jmp2.uk/plu-6639d7d4b18d700008da5316.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://staticcyl.euronews.com/wp-content/uploads/2023/03/Logo_Euronews_white-on-neon_german_RGB.png"
  },
  {
   "name": "Euronews Greek",
   "url": "https://cdn-euronews.akamaized.net/live/eds/euronews-el/25068/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/8t9mdg9.png"
  },
  {
   "name": "Euronews Hungarian",
   "url": "https://cdn-euronews.akamaized.net/live/eds/euronews-hu/25075/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/8t9mdg9.png"
  },
  {
   "name": "Euronews Italian",
   "url": "https://acb6ca89.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0l0YWxpYW5vX0hMUw/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/8t9mdg9.png"
  },
  {
   "name": "Euronews Portuguese",
   "url": "https://jmp2.uk/plu-619e6614c9d9650007a2b171.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/8t9mdg9.png"
  },
  {
   "name": "Euronews Romania",
   "url": "https://hls02ns.antenaplay.ro/hls/euronews-ro-sd/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/jUOVUXt.png"
  },
  {
   "name": "Euronews Russian",
   "url": "https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/8t9mdg9.png"
  },
  {
   "name": "Euronews Spanish",
   "url": "https://iptv.bitred.cl/euronews/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/8t9mdg9.png"
  },
  {
   "name": "Fox News Channel",
   "url": "https://tvsen6.aynaott.com/foxnews/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png"
  },
  {
   "name": "Fox News Radio",
   "url": "https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://radio.foxnews.com/wp-content/uploads/2017/10/default_logo-150x150.png"
  },
  {
   "name": "France 24",
   "url": "https://freem3u.xyz/api/live/play.m3u8?vid=10007",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/u8N6uoj.png"
  },
  {
   "name": "France 24 English",
   "url": "https://freem3u.xyz/api/live/play.m3u8?vid=96",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FRANCE_24/images/LOGO_HD/image.png"
  },
  {
   "name": "France 24 Spanish",
   "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FRANCE_24/images/LOGO_HD/image.png"
  },
  {
   "name": "i24NEWS English World",
   "url": "https://hlspackager.akamaized.net/live/DB/i24_ENGLISH/HLS/i24_ENGLISH.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png"
  },
  {
   "name": "i24NEWS French",
   "url": "https://i24newsfrench-cdn.encoders.immergo.tv/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png"
  },
  {
   "name": "i24NEWS Hebrew",
   "url": "https://i24newshebrew-cdn.encoders.immergo.tv/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://www.i24news.tv/images/favicon.png"
  },
  {
   "name": "NBC News NOW",
   "url": "https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/JZt2qh5.png"
  },
  {
   "name": "NHK World-Japan",
   "url": "https://cdn.pishow.tv/ott/live/455/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png"
  },
  {
   "name": "NHK World-Japan HD",
   "url": "https://freem3u.xyz/api/live/play.m3u8?vid=106",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png"
  },
  {
   "name": "RT Balkan",
   "url": "https://rt-srb.rttv.com/dvr/rtbalkan/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://pbs.twimg.com/media/FiHmjBrWIBsN41d.jpg"
  },
  {
   "name": "RT DE",
   "url": "https://rt-ger.rttv.com/dvr/rtdeutsch/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/v1PIbB2.png"
  },
  {
   "name": "RT France",
   "url": "https://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png"
  },
  {
   "name": "RT India",
@@ -1907,182 +2247,206 @@
  {
   "name": "Sky News",
   "url": "https://dash4.antik.sk/live/test_skynews/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1404.png"
  },
  {
   "name": "Sky News Extra 1",
   "url": "https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/ZsPb8nL.png"
  },
  {
   "name": "Sky News Extra 2",
   "url": "https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/ZsPb8nL.png"
  },
  {
   "name": "Sky News Extra 3",
   "url": "https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8",
-  "group": "قنوات عالمية"
- },
- {
-  "name": "Sky News Urdu",
-  "url": "https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/ZsPb8nL.png"
  },
  {
   "name": "TRT World",
   "url": "https://mumbai-edge.smartplaytv.in/TRTWorld/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png"
  },
  {
   "name": "TRT World HD",
   "url": "https://dash2.antik.sk/live/test_trt_world_atktv/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png"
  },
  {
   "name": "WION",
   "url": "http://vg-zeefta.akamaized.net/ptnr-yupptv/title-wion/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20c3c0d9-0256-43fe-bca6-70fdd490b957/main.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/Wc5Z3iS.png"
  },
  {
   "name": "Animal Planet (India)",
   "url": "https://drk6xq0vhn.gpcdn.net/live/animal_planet_sd_abr/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ANIMAL_PLANET/images/LOGO_HD/image.png"
  },
  {
   "name": "Animal Planet (India) HD",
   "url": "https://drk6xq0vhn.gpcdn.net/live/animal_planet_hd_abr/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ANIMAL_PLANET/images/LOGO_HD/image.png"
  },
  {
   "name": "Animal Planet (Russia)",
   "url": "http://stream.mcquack.net/114/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"
  },
  {
   "name": "Animal Planet (United States)",
   "url": "http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"
  },
  {
   "name": "Animal Planet Latin America",
   "url": "http://190.128.214.97:64333/play/a01n/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"
  },
  {
   "name": "Animal Planet Latin America HD",
   "url": "http://15.204.246.24:8080/AnimalPlanetHD/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"
  },
  {
   "name": "Autentic History",
   "url": "https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentichistory_white.png"
  },
  {
   "name": "BBC Earth Czechia",
   "url": "http://88.212.7.14/live/test_bbc_eartch_hevc/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/nGSsUd4.png"
  },
  {
   "name": "BBC Earth US",
   "url": "https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/nGSsUd4.png"
  },
  {
   "name": "China Travel",
   "url": "https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/vSgY3CD.png"
  },
  {
   "name": "History 2 Latin America",
   "url": "http://138.121.15.230:9002/HISTORY-2/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/500px-History2_logo_%282022%29.svg.png"
  },
  {
   "name": "History (Poland)",
   "url": "http://92.114.85.87:8015/play/a00c/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"
  },
  {
   "name": "History (United States)",
   "url": "http://212.5.144.156:8080/history/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"
  },
  {
   "name": "History Asia",
   "url": "https://freem3u.xyz/api/live/play.m3u8?vid=9856",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"
  },
  {
   "name": "History Hit",
   "url": "https://lds-timeline-rakuten.amagi.tv/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/ulHoqlP.png"
  },
  {
   "name": "History Latin America",
   "url": "http://15.204.246.24:8080/HistoryHD/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"
  },
  {
   "name": "History Latin America South",
   "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/37.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"
  },
  {
   "name": "History TV18 HD",
   "url": "https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://dtil.tmsimg.com/assets/s143133_ld_h15_aa.png?lock=720x540"
  },
  {
   "name": "Investigation Discovery (Hungary)",
   "url": "http://88.212.7.14/live/id_hun/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"
  },
  {
   "name": "Investigation Discovery (India)",
   "url": "https://drk6xq0vhn.gpcdn.net/live/id_hd_abr/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INVESTIGATION_DISCOVERY/images/LOGO_HD/image.png"
  },
  {
   "name": "Investigation Discovery (Russia)",
   "url": "http://stream.mcquack.net/205/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"
  },
  {
   "name": "Investigation Discovery (United States)",
   "url": "http://212.5.144.156:8080/id/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"
  },
  {
   "name": "Investigation Discovery Latin America South",
   "url": "http://38.65.175.84:8000/play/a0ch/index.m3u8",
-  "group": "قنوات عالمية"
- },
- {
-  "name": "National Geographic (India) HD",
-  "url": "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"
  },
  {
   "name": "National Geographic (Mexico)",
   "url": "http://138.121.15.230:9002/NAT-GEO/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"
  },
  {
   "name": "National Geographic (Poland)",
   "url": "http://92.114.85.87:8006/play/a00a/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"
  },
  {
   "name": "National Geographic (United States)",
   "url": "http://212.5.144.156:8080/natgeo/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"
  },
  {
   "name": "National Geographic Latin America",
   "url": "http://15.204.246.24:8080/NatGeoHD/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"
  },
  {
   "name": "Persiana Travel",
@@ -2092,16 +2456,19 @@
  {
   "name": "Pluto TV History",
   "url": "https://jmp2.uk/plu-5a4d35dfa5c02e717a234f86.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/XkQD5kM.png"
  },
  {
   "name": "Polsat Viasat History",
   "url": "http://185.227.34.179:8080/polsat-viasat-history-hd/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/X16UGUf.png"
  },
  {
   "name": "viju History",
   "url": "http://46.53.200.153:7777/play/a01j/index.m3u8",
-  "group": "قنوات عالمية"
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/FqWkeXb.png"
  }
 ]
