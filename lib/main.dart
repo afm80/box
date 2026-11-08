@@ -151,7 +151,6 @@ class _HomePageState extends State<HomePage> {
   int focusIndex = 0;
   FocusNode? qFirstNode;
   ScrollController? listCtrl;
-  Timer? hideTimer;
   int _playToken = 0;
 
   @override
@@ -177,7 +176,6 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void dispose() {
-    hideTimer?.cancel();
     ctrl.dispose();
     rootFocus.dispose();
     qBtnFocus.dispose();
@@ -221,7 +219,6 @@ class _HomePageState extends State<HomePage> {
   }
 
   void _closeMenu() {
-    hideTimer?.cancel();
     if (!menuOpen && !qOpen) return;
     setState(() {
       menuOpen = false;
@@ -234,18 +231,11 @@ class _HomePageState extends State<HomePage> {
 
   void _toggleMenu() => menuOpen ? _closeMenu() : _openMenu();
 
-  void _startHideTimer() {
-    hideTimer?.cancel();
-    hideTimer = Timer(const Duration(seconds: 5), () {
-      if (mounted && !qOpen) _closeMenu();
-    });
-  }
-
-  void _killTimer() => hideTimer?.cancel();
+  // القائمة لا تُغلق تلقائياً: تبقى مفتوحة حتى يختار المستخدم قناة
+  // أو يضغط رجوع / يلمس خارج القائمة.
 
   // ---------- قائمة الجودة ----------
   void _openQuality() {
-    _killTimer();
     qFirstNode?.dispose();
     qFirstNode = FocusNode(debugLabel: 'q-first');
     setState(() => qOpen = true);
@@ -264,7 +254,6 @@ class _HomePageState extends State<HomePage> {
   void _pickQuality(int i) {
     ctrl.setQuality(i);
     _closeQuality();
-    _startHideTimer();
   }
 
   // ---------- تشغيل قناة ----------
@@ -276,7 +265,6 @@ class _HomePageState extends State<HomePage> {
       current = i;
       localMsg = null;
     });
-    _startHideTimer();
     var url = all[i].url;
     if (isYoutubeUrl(url)) {
       setState(() => localMsg = 'جاري تحميل بث يوتيوب...');
@@ -297,7 +285,6 @@ class _HomePageState extends State<HomePage> {
     if (e is! KeyDownEvent) return KeyEventResult.ignored;
     final k = e.logicalKey;
     if (qOpen) {
-      _killTimer();
       if (k == LogicalKeyboardKey.arrowRight) {
         _closeQuality();
         return KeyEventResult.handled;
@@ -305,7 +292,10 @@ class _HomePageState extends State<HomePage> {
       return KeyEventResult.ignored;
     }
     if (menuOpen) {
-      _killTimer();
+      if (k == LogicalKeyboardKey.escape) {
+        _closeMenu();
+        return KeyEventResult.handled;
+      }
       return KeyEventResult.ignored;
     }
     if (k == LogicalKeyboardKey.enter ||
@@ -380,40 +370,39 @@ class _HomePageState extends State<HomePage> {
             Transform.translate(offset: Offset(v * 280, 0), child: child),
         child: GestureDetector(
           behavior: HitTestBehavior.opaque,
-          onTap: _killTimer, // لا تُغلق القائمة عند الضغط داخلها
-          child: Listener(
-            onPointerDown: (_) => _killTimer(),
-            onPointerSignal: (_) => _killTimer(),
-            child: Container(
-              width: 260,
-              height: double.infinity,
-              padding: const EdgeInsets.all(10),
-              decoration: const BoxDecoration(
-                color: Color(0xD9000000),
-                border: Border(left: BorderSide(color: Color(0x1AFFFFFF))),
-              ),
-              child: Builder(builder: (_) {
-                final all = allChannels;
-                final rows = _rows();
-                return ListView.builder(
-                  controller: listCtrl,
-                  itemExtent: _itemExtent,
-                  itemCount: rows.length,
-                  itemBuilder: (_, pos) {
-                    final row = rows[pos];
-                    if (row is String) return _GroupHeader(title: row);
-                    final i = row as int;
-                    return _ChannelCard(
-                      number: i + 1,
-                      name: all[i].name,
-                      active: i == current,
-                      focusNode: i == focusIndex ? activeNode : null,
-                      onTap: () => _play(i),
-                    );
-                  },
-                );
-              }),
+          onTap: () {}, // لا تُغلق القائمة عند الضغط داخلها
+          child: Container(
+            width: 260,
+            height: double.infinity,
+            padding: const EdgeInsets.all(10),
+            decoration: const BoxDecoration(
+              color: Color(0xD9000000),
+              border: Border(left: BorderSide(color: Color(0x1AFFFFFF))),
             ),
+            child: Builder(builder: (_) {
+              final all = allChannels;
+              final rows = _rows();
+              return ListView.builder(
+                controller: listCtrl,
+                itemExtent: _itemExtent,
+                itemCount: rows.length,
+                itemBuilder: (_, pos) {
+                  final row = rows[pos];
+                  if (row is String) return _GroupHeader(title: row);
+                  final i = row as int;
+                  return _ChannelCard(
+                    number: i + 1,
+                    name: all[i].name,
+                    active: i == current,
+                    focusNode: i == focusIndex ? activeNode : null,
+                    onTap: () {
+                      _play(i);
+                      _closeMenu();
+                    },
+                  );
+                },
+              );
+            }),
           ),
         ),
       ),
