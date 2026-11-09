@@ -71,18 +71,6 @@
   "group": "قنوات عراقية"
  },
  {
-  "name": "AVA Media",
-  "url": "http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV-avc1_2500000=10002,mp4a_128000=20000.m3u8",
-  "group": "قنوات عراقية",
-  "logo": "https://github.com/user-attachments/assets/a9259f18-b9f2-4aa0-86f0-8fba1f343e69"
- },
- {
-  "name": "Avar TV",
-  "url": "https://avr.host247.net/live/AvarTv/playlist.m3u8",
-  "group": "قنوات عراقية",
-  "logo": "https://i.imgur.com/JazFBkW.jpeg"
- },
- {
   "name": "BeitolAbbas TV Channel",
   "url": "https://live.beitolabbas.tv/live/beitolabbastv.m3u8",
   "group": "قنوات عراقية",
@@ -93,18 +81,6 @@
   "url": "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8",
   "group": "قنوات عراقية",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Channel8corp.png/960px-Channel8corp.png"
- },
- {
-  "name": "EmanTv",
-  "url": "https://avr.host247.net/live/emantv/playlist.m3u8",
-  "group": "قنوات عراقية",
-  "logo": "https://i.imgur.com/QmgaPSi.png"
- },
- {
-  "name": "FarmodaTV",
-  "url": "https://avr.host247.net/live/FarmodaTV/playlist.m3u8",
-  "group": "قنوات عراقية",
-  "logo": "https://i.imgur.com/x4KCQlH.png"
  },
  {
   "name": "I News",
@@ -207,12 +183,6 @@
   "url": "https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8",
   "group": "قنوات عراقية",
   "logo": "https://i.imgur.com/fCj05f0.png"
- },
- {
-  "name": "Mixkurdy",
-  "url": "https://avr.host247.net/live/Mix-kurdy/playlist.m3u8",
-  "group": "قنوات عراقية",
-  "logo": "https://i.imgur.com/WHeH5i7.png"
  },
  {
   "name": "Payam TV",
@@ -820,12 +790,6 @@
   "logo": "https://aloula.faulio.com/storage/mediagallery/14/da/fullhd_823bc2fe722ede75410492d57fd6c201208b4224.png"
  },
  {
-  "name": "Holy Quran Radio Nablus",
-  "url": "http://streaming.zaytonatube.com:8080/holyquran/holyquran/video.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://quran-radio.com/assets/images/site/quran-radio-logo-h-rtl.png"
- },
- {
   "name": "Hya TV",
   "url": "https://freem3u.xyz/api/live/play.m3u8?vid=187",
   "group": "قنوات عربية",
@@ -848,6 +812,12 @@
   "url": "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv1/playlist.m3u8",
   "group": "قنوات عربية",
   "logo": "https://i.imgur.com/nUlZvSe.png"
+ },
+ {
+  "name": "Jeddah Radio",
+  "url": "https://live.kwikmotion.com/sbrksajeddahradiolive/srpksajeddahradio/chunks.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://aloula.faulio.com/storage/mediagallery/bd/f5/fullhd_527bf54a5adb56ac17f572ac2cd0801304db3baf.png"
  },
  {
   "name": "Jordan Archive",
@@ -1000,6 +970,12 @@
   "logo": "https://i.imgur.com/q7iVchl.png"
  },
  {
+  "name": "Melody FM",
+  "url": "https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/J8omcNz.png"
+ },
+ {
   "name": "mfm",
   "url": "https://hms.pfs.gdn/hms/v1/broadcast/hlmvmp2hfriode891/playlist.m3u8",
   "group": "قنوات عربية"
@@ -1104,12 +1080,6 @@
   "url": "https://svs.itworkscdn.net/nour8satlive/livestream/playlist.m3u8",
   "group": "قنوات عربية",
   "logo": "https://i.imgur.com/EEy2dUr.png"
- },
- {
-  "name": "Noursat",
-  "url": "https://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/6Zs5rx4.png"
  },
  {
   "name": "Oman TV Cultural",
@@ -1520,12 +1490,6 @@
   "logo": "https://i.imgur.com/l4oX0gf.png"
  },
  {
-  "name": "Oman Sports TV",
-  "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
-  "group": "قنوات رياضية",
-  "logo": "https://i.imgur.com/1omi7p8.png"
- },
- {
   "name": "30A Golf Kingdom",
   "url": "https://30a-tv.com/feeds/vidaa/golf.m3u8",
   "group": "قنوات رياضية",
@@ -1580,7 +1544,7 @@
   "logo": "https://i.imgur.com/1l3t5jd.png"
  },
  {
-  "name": "Canal+ Sport",
+  "name": "Canal+ Sport (France)",
   "url": "http://tv.streambox.fr/live/testlivestream/testlivestream/31.m3u8",
   "group": "قنوات رياضية",
   "logo": "https://i.imgur.com/EOXnU15.png"
@@ -2112,6 +2076,12 @@
   "url": "http://88.212.15.50/live/test_cnn_pirma_news/playlist.m3u8",
   "group": "قنوات عالمية",
   "logo": "https://i.imgur.com/elZyUjX.png"
+ },
+ {
+  "name": "CNN Turk",
+  "url": "http://85.117.61.84/cnnturk/index.m3u8",
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/CNN_T%C3%BCrk_logo.svg/960px-CNN_T%C3%BCrk_logo.svg.png"
  },
  {
   "name": "DW English",
