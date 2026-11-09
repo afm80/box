@@ -71,6 +71,12 @@
   "group": "قنوات عراقية"
  },
  {
+  "name": "Avar TV",
+  "url": "https://avr.host247.net/live/AvarTv/playlist.m3u8",
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/JazFBkW.jpeg"
+ },
+ {
   "name": "BeitolAbbas TV Channel",
   "url": "https://live.beitolabbas.tv/live/beitolabbastv.m3u8",
   "group": "قنوات عراقية",
@@ -81,6 +87,18 @@
   "url": "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8",
   "group": "قنوات عراقية",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Channel8corp.png/960px-Channel8corp.png"
+ },
+ {
+  "name": "EmanTv",
+  "url": "https://avr.host247.net/live/emantv/playlist.m3u8",
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/QmgaPSi.png"
+ },
+ {
+  "name": "FarmodaTV",
+  "url": "https://avr.host247.net/live/FarmodaTV/playlist.m3u8",
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/x4KCQlH.png"
  },
  {
   "name": "I News",
@@ -339,12 +357,6 @@
   "url": "http://media.smc-host.com:1935/alhorreya.tv/mp4:alhorreya3/playlist.m3u8",
   "group": "قنوات عربية",
   "logo": "https://i.imgur.com/EK75DMJ.png"
- },
- {
-  "name": "Al Ittihad TV",
-  "url": "http://185.105.4.151:8080/_defapp_/ittihad/index.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/QMUjPXx.png"
  },
  {
   "name": "Al Jadeed",
@@ -790,6 +802,12 @@
   "logo": "https://aloula.faulio.com/storage/mediagallery/14/da/fullhd_823bc2fe722ede75410492d57fd6c201208b4224.png"
  },
  {
+  "name": "Holy Quran Radio Nablus",
+  "url": "http://streaming.zaytonatube.com:8080/holyquran/holyquran/video.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://quran-radio.com/assets/images/site/quran-radio-logo-h-rtl.png"
+ },
+ {
   "name": "Hya TV",
   "url": "https://freem3u.xyz/api/live/play.m3u8?vid=187",
   "group": "قنوات عربية",
@@ -812,12 +830,6 @@
   "url": "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv1/playlist.m3u8",
   "group": "قنوات عربية",
   "logo": "https://i.imgur.com/nUlZvSe.png"
- },
- {
-  "name": "Jeddah Radio",
-  "url": "https://live.kwikmotion.com/sbrksajeddahradiolive/srpksajeddahradio/chunks.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://aloula.faulio.com/storage/mediagallery/bd/f5/fullhd_527bf54a5adb56ac17f572ac2cd0801304db3baf.png"
  },
  {
   "name": "Jordan Archive",
@@ -1082,10 +1094,10 @@
   "logo": "https://i.imgur.com/EEy2dUr.png"
  },
  {
-  "name": "Oman TV Cultural",
-  "url": "https://partwota.cdn.mgmlcdn.com/omcultural/smil:omcultural.stream.smil/chunklist.m3u8",
+  "name": "Noursat",
+  "url": "https://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8",
   "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/b38wNPK.png"
+  "logo": "https://i.imgur.com/6Zs5rx4.png"
  },
  {
   "name": "Oman TV Mubashir",
@@ -1166,12 +1178,6 @@
   "logo": "https://shahid.mbc.net/mediaObject/b98b0635-c8ed-4a7c-9efa-5856e278f54b?type=png"
  },
  {
-  "name": "Radio Albalad TV",
-  "url": "http://streaming.zaytonatube.com:8080/radioalbalad/radioalbalad/playlist.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/7/71/Nothing_whitespace_blank.png"
- },
- {
   "name": "Radio Fann Jordan Studio",
   "url": "http://45.63.116.205/hls2/stream1.m3u8",
   "group": "قنوات عربية",
@@ -1248,12 +1254,6 @@
   "url": "https://cdn3.wowza.com/1/YStGZlJRdktzZkdK/VXROZWNW/hls/live/playlist.m3u8",
   "group": "قنوات عربية",
   "logo": "https://image.roku.com/developer_channels/prod/8389e15af8fe49ac7c36d201c24ebf62fbe5b22897c2879ca26ae936e0ed308d.png"
- },
- {
-  "name": "Sahara 24",
-  "url": "https://live.saharamedias.net:3317/live/shara24live.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/pnzWYwT.png"
  },
  {
   "name": "Sat 7 Arabic",
@@ -1490,6 +1490,12 @@
   "logo": "https://i.imgur.com/l4oX0gf.png"
  },
  {
+  "name": "Oman Sports TV",
+  "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/1omi7p8.png"
+ },
+ {
   "name": "30A Golf Kingdom",
   "url": "https://30a-tv.com/feeds/vidaa/golf.m3u8",
   "group": "قنوات رياضية",
@@ -1722,12 +1728,6 @@
   "url": "http://168.228.44.241:9997/play/a06p/index.m3u8",
   "group": "قنوات رياضية",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png"
- },
- {
-  "name": "ESPN Premium HD",
-  "url": "http://158.172.155.130:8000/play/a0ao/index.m3u8",
-  "group": "قنوات رياضية",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/960px-ESPN_Premium_logo.svg.png"
  },
  {
   "name": "Eurosport 1 Czechia",
@@ -2305,18 +2305,6 @@
   "logo": "https://i.imgur.com/Wc5Z3iS.png"
  },
  {
-  "name": "Animal Planet (India)",
-  "url": "https://drk6xq0vhn.gpcdn.net/live/animal_planet_sd_abr/index.m3u8",
-  "group": "قنوات عالمية",
-  "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ANIMAL_PLANET/images/LOGO_HD/image.png"
- },
- {
-  "name": "Animal Planet (India) HD",
-  "url": "https://drk6xq0vhn.gpcdn.net/live/animal_planet_hd_abr/index.m3u8",
-  "group": "قنوات عالمية",
-  "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ANIMAL_PLANET/images/LOGO_HD/image.png"
- },
- {
   "name": "Animal Planet (Russia)",
   "url": "http://stream.mcquack.net/114/index.m3u8",
   "group": "قنوات عالمية",
@@ -2417,12 +2405,6 @@
   "url": "http://88.212.7.14/live/id_hun/index.m3u8",
   "group": "قنوات عالمية",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"
- },
- {
-  "name": "Investigation Discovery (India)",
-  "url": "https://drk6xq0vhn.gpcdn.net/live/id_hd_abr/index.m3u8",
-  "group": "قنوات عالمية",
-  "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INVESTIGATION_DISCOVERY/images/LOGO_HD/image.png"
  },
  {
   "name": "Investigation Discovery (Russia)",
