@@ -203,12 +203,6 @@
   "logo": "https://i.imgur.com/fCj05f0.png"
  },
  {
-  "name": "Mixkurdy",
-  "url": "https://avr.host247.net/live/Mix-kurdy/playlist.m3u8",
-  "group": "قنوات عراقية",
-  "logo": "https://i.imgur.com/WHeH5i7.png"
- },
- {
   "name": "Payam TV",
   "url": "https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8",
   "group": "قنوات عراقية",
@@ -405,6 +399,12 @@
   "url": "https://bucharest.zeuscdn724.com/lb0/CH-AL-MA/index.m3u8",
   "group": "قنوات عربية",
   "logo": "https://i.imgur.com/QFnztgo.png"
+ },
+ {
+  "name": "Al Madina",
+  "url": "https://streaming.zaytonatube.com:8081/AlMadinatv/almadina21/index.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/NVOeM3P.png"
  },
  {
   "name": "Al Maghribia",
@@ -994,12 +994,6 @@
   "logo": "https://i.imgur.com/q7iVchl.png"
  },
  {
-  "name": "Melody FM",
-  "url": "https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/J8omcNz.png"
- },
- {
   "name": "mfm",
   "url": "https://hms.pfs.gdn/hms/v1/broadcast/hlmvmp2hfriode891/playlist.m3u8",
   "group": "قنوات عربية"
@@ -1100,22 +1094,16 @@
   "logo": "https://i.imgur.com/dF4Mvts.png"
  },
  {
-  "name": "Nour Al Sharq",
-  "url": "https://svs.itworkscdn.net/nour8satlive/livestream/playlist.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/EEy2dUr.png"
- },
- {
   "name": "Noursat",
   "url": "https://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8",
   "group": "قنوات عربية",
   "logo": "https://i.imgur.com/6Zs5rx4.png"
  },
  {
-  "name": "Oman TV Cultural",
-  "url": "https://partwota.cdn.mgmlcdn.com/omcultural/smil:omcultural.stream.smil/chunklist.m3u8",
+  "name": "Oman TV Mubashir",
+  "url": "https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8",
   "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/b38wNPK.png"
+  "logo": "https://i.imgur.com/UkQTR5b.png"
  },
  {
   "name": "One TV",
@@ -1328,6 +1316,12 @@
   "logo": "https://i.imgur.com/q7GGALe.png"
  },
  {
+  "name": "Sharjah Radio Quran",
+  "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/MxZlOvc.png"
+ },
+ {
   "name": "Sharjah TV",
   "url": "https://live.kwikmotion.com/smc1live/smc1tv.smil/playlist.m3u8",
   "group": "قنوات عربية",
@@ -1500,6 +1494,12 @@
   "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8",
   "group": "قنوات رياضية",
   "logo": "https://i.imgur.com/R1hGX1d.png"
+ },
+ {
+  "name": "KTV Sport Plus",
+  "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/l4oX0gf.png"
  },
  {
   "name": "Oman Sports TV",
@@ -1882,12 +1882,6 @@
  {
   "name": "Al Jazeera English",
   "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
-  "group": "قنوات عالمية",
-  "logo": "https://i.imgur.com/7bRVpnu.png"
- },
- {
-  "name": "Al Jazeera English HD",
-  "url": "http://stream.mcquack.net/131/index.m3u8",
   "group": "قنوات عالمية",
   "logo": "https://i.imgur.com/7bRVpnu.png"
  },
@@ -2401,12 +2395,6 @@
   "logo": "https://i.imgur.com/ulHoqlP.png"
  },
  {
-  "name": "History Latin America",
-  "url": "http://15.204.246.24:8080/HistoryHD/index.m3u8",
-  "group": "قنوات عالمية",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"
- },
- {
   "name": "History Latin America South",
   "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/37.m3u8",
   "group": "قنوات عالمية",
@@ -2433,6 +2421,12 @@
  {
   "name": "Investigation Discovery (United States)",
   "url": "http://212.5.144.156:8080/id/index.m3u8",
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"
+ },
+ {
+  "name": "Investigation Discovery Latin America South",
+  "url": "http://38.65.175.84:8000/play/a0ch/index.m3u8",
   "group": "قنوات عالمية",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"
  },
