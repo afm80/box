@@ -215,12 +215,6 @@
   "logo": "https://i.imgur.com/Zo3IWOn.png"
  },
  {
-  "name": "UTV (Iraq)",
-  "url": "https://utviraqi-live.lg.mncdn.com/utviraqi-live/64c80359/index.m3u8",
-  "group": "قنوات عراقية",
-  "logo": "https://i.imgur.com/9qFHjnu.png"
- },
- {
   "name": "Waar TV",
   "url": "https://hlspackager.akamaized.net/live/DB/WAAR_HD/HLS/WAAR_HD.m3u8",
   "group": "قنوات عراقية",
@@ -357,6 +351,12 @@
   "url": "http://media.smc-host.com:1935/alhorreya.tv/mp4:alhorreya3/playlist.m3u8",
   "group": "قنوات عربية",
   "logo": "https://i.imgur.com/EK75DMJ.png"
+ },
+ {
+  "name": "Al Ittihad TV",
+  "url": "http://185.105.4.151:8080/_defapp_/ittihad/index.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/QMUjPXx.png"
  },
  {
   "name": "Al Jadeed",
@@ -982,12 +982,6 @@
   "logo": "https://i.imgur.com/q7iVchl.png"
  },
  {
-  "name": "Melody FM",
-  "url": "https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/J8omcNz.png"
- },
- {
   "name": "mfm",
   "url": "https://hms.pfs.gdn/hms/v1/broadcast/hlmvmp2hfriode891/playlist.m3u8",
   "group": "قنوات عربية"
@@ -1100,6 +1094,12 @@
   "logo": "https://i.imgur.com/6Zs5rx4.png"
  },
  {
+  "name": "Oman TV Cultural",
+  "url": "https://partwota.cdn.mgmlcdn.com/omcultural/smil:omcultural.stream.smil/chunklist.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/b38wNPK.png"
+ },
+ {
   "name": "Oman TV Mubashir",
   "url": "https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8",
   "group": "قنوات عربية",
@@ -1178,6 +1178,12 @@
   "logo": "https://shahid.mbc.net/mediaObject/b98b0635-c8ed-4a7c-9efa-5856e278f54b?type=png"
  },
  {
+  "name": "Radio Albalad TV",
+  "url": "http://streaming.zaytonatube.com:8080/radioalbalad/radioalbalad/playlist.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/7/71/Nothing_whitespace_blank.png"
+ },
+ {
   "name": "Radio Fann Jordan Studio",
   "url": "http://45.63.116.205/hls2/stream1.m3u8",
   "group": "قنوات عربية",
@@ -1254,6 +1260,12 @@
   "url": "https://cdn3.wowza.com/1/YStGZlJRdktzZkdK/VXROZWNW/hls/live/playlist.m3u8",
   "group": "قنوات عربية",
   "logo": "https://image.roku.com/developer_channels/prod/8389e15af8fe49ac7c36d201c24ebf62fbe5b22897c2879ca26ae936e0ed308d.png"
+ },
+ {
+  "name": "Sahara 24",
+  "url": "https://live.saharamedias.net:3317/live/shara24live.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/pnzWYwT.png"
  },
  {
   "name": "Sat 7 Arabic",
@@ -1604,6 +1616,12 @@
   "logo": "https://images.pluto.tv/channels/64b67f0424ade50008a3be17/colorLogoPNG.png"
  },
  {
+  "name": "DAZN F1",
+  "url": "https://tvorb.net/ZTV/6918-live.m3u8",
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/yFCr5XX.png"
+ },
+ {
   "name": "DAZN Heldinnen x Pluto TV",
   "url": "https://jmp2.uk/plu-64afe50c5dc16600087f3227.m3u8",
   "group": "قنوات رياضية",
@@ -1730,6 +1748,12 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png"
  },
  {
+  "name": "ESPN Premium HD",
+  "url": "http://158.172.155.130:8000/play/a0ao/index.m3u8",
+  "group": "قنوات رياضية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/960px-ESPN_Premium_logo.svg.png"
+ },
+ {
   "name": "Eurosport 1 Czechia",
   "url": "http://88.212.7.14/live/test_esp1_hevc_tizen/playlist.m3u8",
   "group": "قنوات رياضية",
@@ -1774,12 +1798,6 @@
  {
   "name": "Eurosport 2 Hungary",
   "url": "http://88.212.7.14/live/esp2_hun/index.m3u8",
-  "group": "قنوات رياضية",
-  "logo": "https://i.imgur.com/f56dHgR.png"
- },
- {
-  "name": "Eurosport 2 Portugal",
-  "url": "http://185.228.163.146:8000/play/a048/index.m3u8",
   "group": "قنوات رياضية",
   "logo": "https://i.imgur.com/f56dHgR.png"
  },
@@ -1864,12 +1882,6 @@
  {
   "name": "Al Jazeera English",
   "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
-  "group": "قنوات عالمية",
-  "logo": "https://i.imgur.com/7bRVpnu.png"
- },
- {
-  "name": "Al Jazeera English HD",
-  "url": "http://stream.mcquack.net/131/index.m3u8",
   "group": "قنوات عالمية",
   "logo": "https://i.imgur.com/7bRVpnu.png"
  },
