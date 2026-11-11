@@ -71,6 +71,12 @@
   "group": "قنوات عراقية"
  },
  {
+  "name": "AVA Media",
+  "url": "http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV-avc1_2500000=10002,mp4a_128000=20000.m3u8",
+  "group": "قنوات عراقية",
+  "logo": "https://github.com/user-attachments/assets/a9259f18-b9f2-4aa0-86f0-8fba1f343e69"
+ },
+ {
   "name": "Avar TV",
   "url": "https://avr.host247.net/live/AvarTv/playlist.m3u8",
   "group": "قنوات عراقية",
@@ -808,12 +814,6 @@
   "logo": "https://aloula.faulio.com/storage/mediagallery/14/da/fullhd_823bc2fe722ede75410492d57fd6c201208b4224.png"
  },
  {
-  "name": "Holy Quran Radio Nablus",
-  "url": "http://streaming.zaytonatube.com:8080/holyquran/holyquran/video.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://quran-radio.com/assets/images/site/quran-radio-logo-h-rtl.png"
- },
- {
   "name": "Hya TV",
   "url": "https://freem3u.xyz/api/live/play.m3u8?vid=187",
   "group": "قنوات عربية",
@@ -994,6 +994,12 @@
   "logo": "https://i.imgur.com/q7iVchl.png"
  },
  {
+  "name": "Melody FM",
+  "url": "https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/J8omcNz.png"
+ },
+ {
   "name": "mfm",
   "url": "https://hms.pfs.gdn/hms/v1/broadcast/hlmvmp2hfriode891/playlist.m3u8",
   "group": "قنوات عربية"
@@ -1094,10 +1100,22 @@
   "logo": "https://i.imgur.com/dF4Mvts.png"
  },
  {
+  "name": "Nour Al Sharq",
+  "url": "https://svs.itworkscdn.net/nour8satlive/livestream/playlist.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/EEy2dUr.png"
+ },
+ {
   "name": "Noursat",
   "url": "https://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8",
   "group": "قنوات عربية",
   "logo": "https://i.imgur.com/6Zs5rx4.png"
+ },
+ {
+  "name": "Oman TV Cultural",
+  "url": "https://partwota.cdn.mgmlcdn.com/omcultural/smil:omcultural.stream.smil/chunklist.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/b38wNPK.png"
  },
  {
   "name": "Oman TV Mubashir",
@@ -1272,12 +1290,6 @@
   "url": "https://svs.itworkscdn.net/sat7arabiclive/sat7arabic.smil/playlist_dvr.m3u8",
   "group": "قنوات عربية",
   "logo": "https://i.imgur.com/BzDjQeQ.png"
- },
- {
-  "name": "Sat 7 Kids",
-  "url": "https://svs.itworkscdn.net/sat7kidslive/sat7kids.smil/playlist_dvr.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/M0ik0i2.png"
  },
  {
   "name": "Saudi Thaqafiya TV",
@@ -1886,6 +1898,12 @@
   "logo": "https://i.imgur.com/7bRVpnu.png"
  },
  {
+  "name": "Al Jazeera English HD",
+  "url": "http://stream.mcquack.net/131/index.m3u8",
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/7bRVpnu.png"
+ },
+ {
   "name": "Antena 3 CNN HD",
   "url": "https://live77cdn2.antenaplay.ro/live2_aws4_sdi02/live2_aws4_sdi02_5000k.m3u8",
   "group": "قنوات عالمية",
@@ -2317,12 +2335,6 @@
   "logo": "https://i.imgur.com/Wc5Z3iS.png"
  },
  {
-  "name": "Animal Planet (Russia)",
-  "url": "http://stream.mcquack.net/114/index.m3u8",
-  "group": "قنوات عالمية",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"
- },
- {
   "name": "Animal Planet (United States)",
   "url": "http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8",
   "group": "قنوات عالمية",
@@ -2395,6 +2407,12 @@
   "logo": "https://i.imgur.com/ulHoqlP.png"
  },
  {
+  "name": "History Latin America",
+  "url": "http://15.204.246.24:8080/HistoryHD/index.m3u8",
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"
+ },
+ {
   "name": "History Latin America South",
   "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/37.m3u8",
   "group": "قنوات عالمية",
@@ -2426,7 +2444,7 @@
  },
  {
   "name": "Investigation Discovery Latin America South",
-  "url": "http://38.65.175.84:8000/play/a0ch/index.m3u8",
+  "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/41.m3u8",
   "group": "قنوات عالمية",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"
  },
