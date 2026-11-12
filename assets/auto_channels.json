@@ -71,12 +71,6 @@
   "group": "قنوات عراقية"
  },
  {
-  "name": "AVA Media",
-  "url": "http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV-avc1_2500000=10002,mp4a_128000=20000.m3u8",
-  "group": "قنوات عراقية",
-  "logo": "https://github.com/user-attachments/assets/a9259f18-b9f2-4aa0-86f0-8fba1f343e69"
- },
- {
   "name": "Avar TV",
   "url": "https://avr.host247.net/live/AvarTv/playlist.m3u8",
   "group": "قنوات عراقية",
@@ -207,12 +201,6 @@
   "url": "https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8",
   "group": "قنوات عراقية",
   "logo": "https://i.imgur.com/fCj05f0.png"
- },
- {
-  "name": "Mixkurdy",
-  "url": "https://avr.host247.net/live/Mix-kurdy/playlist.m3u8",
-  "group": "قنوات عراقية",
-  "logo": "https://i.imgur.com/WHeH5i7.png"
  },
  {
   "name": "Payam TV",
@@ -694,12 +682,6 @@
   "logo": "https://i.imgur.com/U9z8WBY.png"
  },
  {
-  "name": "CNA (Algeria)",
-  "url": "https://live.creacast.com/cna/stream/playlist.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/Ki3ySUE.png"
- },
- {
   "name": "CNBC Arabiya",
   "url": "https://cnbc-live.akamaized.net/cnbc/master.m3u8",
   "group": "قنوات عربية",
@@ -782,6 +764,12 @@
   "url": "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8",
   "group": "قنوات عربية",
   "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FRANCE_24/images/LOGO_HD/image.png"
+ },
+ {
+  "name": "Future TV",
+  "url": "https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/OaqEpwe.png"
  },
  {
   "name": "God Stands Kids Club TV Arabic",
@@ -988,28 +976,10 @@
   "logo": "https://shahid.mbc.net/mediaObject/c2b6a882-458b-446e-b0fe-f97f7992149a?height=auto&width=144&croppingPoint=&version=1&type=png"
  },
  {
-  "name": "Medi1TV Arabic",
-  "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/3YsZPY6.jpeg"
- },
- {
-  "name": "Medi1TV Maghreb",
-  "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/F5OFQsp.jpeg"
- },
- {
   "name": "Mekameleen TV",
   "url": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8",
   "group": "قنوات عربية",
   "logo": "https://i.imgur.com/q7iVchl.png"
- },
- {
-  "name": "Melody FM",
-  "url": "https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/J8omcNz.png"
  },
  {
   "name": "mfm",
@@ -1130,6 +1100,12 @@
   "logo": "https://i.imgur.com/b38wNPK.png"
  },
  {
+  "name": "Oman TV Mubashir",
+  "url": "https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/UkQTR5b.png"
+ },
+ {
   "name": "One TV",
   "url": "https://hms.pfs.gdn/v1/broadcast/one/playlist.m3u8",
   "group": "قنوات عربية",
@@ -1166,10 +1142,10 @@
   "logo": "https://prime1tv.com/wp-content/uploads/2025/12/7-1.png"
  },
  {
-  "name": "Qatar Television",
-  "url": "https://live.kwikmotion.com/qtv1live/qtv1.smil/playlist.m3u8",
+  "name": "Pulse95 Radio",
+  "url": "https://svs.itworkscdn.net/pulse95live/pulse96/playlist.m3u8",
   "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/N5RB4sp.png"
+  "logo": "https://maraya.faulio.com/storage/mediagallery/60/26/fullhd_d5c3c81b0562a76bc63f073a5e0947f309b0215b.png"
  },
  {
   "name": "Qatar TV The Holy Quran",
@@ -1376,12 +1352,6 @@
   "logo": "https://i.imgur.com/FjuVuXF.jpeg"
  },
  {
-  "name": "Taha TV",
-  "url": "https://stream.starmenajo.com/hls/app/live/ts:fhd.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/hdsrxvX.png"
- },
- {
   "name": "Takbeer TV",
   "url": "https://cd198.anystream.uk:9092/iqapp/t5kb86tv/playlist.m3u8",
   "group": "قنوات عربية",
@@ -1506,6 +1476,12 @@
   "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
   "group": "قنوات رياضية",
   "logo": "https://i.imgur.com/l4oX0gf.png"
+ },
+ {
+  "name": "Oman Sports TV",
+  "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/1omi7p8.png"
  },
  {
   "name": "30A Golf Kingdom",
@@ -1664,6 +1640,12 @@
   "logo": "https://i.imgur.com/SEKXaAW.png"
  },
  {
+  "name": "ESPN 2 (United States) HD",
+  "url": "http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8",
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/00tsvjE.png"
+ },
+ {
   "name": "ESPN 2 Latin America",
   "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8",
   "group": "قنوات رياضية",
@@ -1718,6 +1700,12 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png"
  },
  {
+  "name": "ESPN (United States) HD",
+  "url": "http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8",
+  "group": "قنوات رياضية",
+  "logo": "https://imgx.fubo.tv/station_logos/espn-hd_c.png"
+ },
+ {
   "name": "ESPN Latin America",
   "url": "https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.m3u8",
   "group": "قنوات رياضية",
@@ -1734,6 +1722,12 @@
   "url": "http://168.228.44.241:9997/play/a06p/index.m3u8",
   "group": "قنوات رياضية",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png"
+ },
+ {
+  "name": "ESPN Premium",
+  "url": "http://45.134.141.161:2200/ARG/ESPN_Premium_Argentina_HD/tracks-v1a1/mono.m3u8",
+  "group": "قنوات رياضية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/960px-ESPN_Premium_logo.svg.png"
  },
  {
   "name": "ESPN Premium HD",
@@ -1760,6 +1754,12 @@
   "logo": "https://i.imgur.com/olQJgm7.png"
  },
  {
+  "name": "Eurosport 1 Portugal",
+  "url": "http://185.228.163.146:8000/play/a03z/index.m3u8",
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/olQJgm7.png"
+ },
+ {
   "name": "Eurosport 1 Russia",
   "url": "https://s7.iptv-24.net/1439/playlist.m3u8",
   "group": "قنوات رياضية",
@@ -1774,12 +1774,6 @@
  {
   "name": "Eurosport 2 Czechia",
   "url": "http://88.212.7.14/live/test_esp2_hevc_tizen/playlist.m3u8",
-  "group": "قنوات رياضية",
-  "logo": "https://i.imgur.com/f56dHgR.png"
- },
- {
-  "name": "Eurosport 2 Hungary",
-  "url": "http://88.212.7.14/live/esp2_hun/index.m3u8",
   "group": "قنوات رياضية",
   "logo": "https://i.imgur.com/f56dHgR.png"
  },
@@ -1864,12 +1858,6 @@
  {
   "name": "Al Jazeera English",
   "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
-  "group": "قنوات عالمية",
-  "logo": "https://i.imgur.com/7bRVpnu.png"
- },
- {
-  "name": "Al Jazeera English HD",
-  "url": "http://stream.mcquack.net/131/index.m3u8",
   "group": "قنوات عالمية",
   "logo": "https://i.imgur.com/7bRVpnu.png"
  },
@@ -2014,6 +2002,12 @@
  {
   "name": "CNN",
   "url": "https://tvsen6.aynaott.com/cnn/index.m3u8",
+  "group": "قنوات عالمية",
+  "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png"
+ },
+ {
+  "name": "CNN HD",
+  "url": "http://212.5.144.156:8080/cnn/index.m3u8",
   "group": "قنوات عالمية",
   "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png"
  },
@@ -2317,6 +2311,12 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"
  },
  {
+  "name": "Animal Planet Latin America HD",
+  "url": "http://15.204.246.24:8080/AnimalPlanetHD/index.m3u8",
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"
+ },
+ {
   "name": "Autentic History",
   "url": "https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8",
   "group": "قنوات عالمية",
@@ -2353,6 +2353,12 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"
  },
  {
+  "name": "History (United States)",
+  "url": "http://212.5.144.156:8080/history/index.m3u8",
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"
+ },
+ {
   "name": "History Asia",
   "url": "https://freem3u.xyz/api/live/play.m3u8?vid=9856",
   "group": "قنوات عالمية",
@@ -2363,6 +2369,12 @@
   "url": "https://lds-timeline-rakuten.amagi.tv/playlist.m3u8",
   "group": "قنوات عالمية",
   "logo": "https://i.imgur.com/ulHoqlP.png"
+ },
+ {
+  "name": "History Latin America",
+  "url": "http://15.204.246.24:8080/HistoryHD/index.m3u8",
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"
  },
  {
   "name": "History Latin America South",
@@ -2389,6 +2401,12 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"
  },
  {
+  "name": "Investigation Discovery (United States)",
+  "url": "http://212.5.144.156:8080/id/index.m3u8",
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"
+ },
+ {
   "name": "Investigation Discovery Latin America South",
   "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/41.m3u8",
   "group": "قنوات عالمية",
@@ -2403,6 +2421,18 @@
  {
   "name": "National Geographic (Poland)",
   "url": "http://92.114.85.87:8006/play/a00a/index.m3u8",
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"
+ },
+ {
+  "name": "National Geographic (United States)",
+  "url": "http://212.5.144.156:8080/natgeo/index.m3u8",
+  "group": "قنوات عالمية",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"
+ },
+ {
+  "name": "National Geographic Latin America",
+  "url": "http://15.204.246.24:8080/NatGeoHD/index.m3u8",
   "group": "قنوات عالمية",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"
  },
