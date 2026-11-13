@@ -203,6 +203,12 @@
   "logo": "https://i.imgur.com/fCj05f0.png"
  },
  {
+  "name": "Mixkurdy",
+  "url": "https://avr.host247.net/live/Mix-kurdy/playlist.m3u8",
+  "group": "قنوات عراقية",
+  "logo": "https://i.imgur.com/WHeH5i7.png"
+ },
+ {
   "name": "Payam TV",
   "url": "https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8",
   "group": "قنوات عراقية",
@@ -682,12 +688,6 @@
   "logo": "https://i.imgur.com/U9z8WBY.png"
  },
  {
-  "name": "CNA (Algeria)",
-  "url": "https://live.creacast.com/cna/stream/playlist.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/Ki3ySUE.png"
- },
- {
   "name": "CNBC Arabiya",
   "url": "https://cnbc-live.akamaized.net/cnbc/master.m3u8",
   "group": "قنوات عربية",
@@ -1130,6 +1130,12 @@
   "logo": "https://i.imgur.com/O4DuR9G.png"
  },
  {
+  "name": "OneFM",
+  "url": "https://hms.pfs.gdn/v1/broadcast/onefm/playlist.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.ibb.co/Vp2G9wTz/onefmlb.png"
+ },
+ {
   "name": "OTV (Lebanon)",
   "url": "https://otv.hibridcdn.net/otv/tv_abr/playlist.m3u8",
   "group": "قنوات عربية",
@@ -1316,6 +1322,12 @@
   "logo": "https://i.imgur.com/hnTx8eK.png"
  },
  {
+  "name": "Shabab FM",
+  "url": "https://streaming.zaytonatube.com:8081/ShababFM/shabab/index.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/4Cyz4Bn.png"
+ },
+ {
   "name": "Sharjah Radio",
   "url": "https://svs.itworkscdn.net/smcradiolive/smcradiolive/playlist.m3u8",
   "group": "قنوات عربية",
@@ -1374,6 +1386,12 @@
   "url": "https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8",
   "group": "قنوات عربية",
   "logo": "https://i.imgur.com/FjuVuXF.jpeg"
+ },
+ {
+  "name": "Taha TV",
+  "url": "https://stream.starmenajo.com/hls/app/live/ts:fhd.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/hdsrxvX.png"
  },
  {
   "name": "Takbeer TV",
@@ -1484,6 +1502,12 @@
   "logo": "https://i.imgur.com/fBpLsbC.png"
  },
  {
+  "name": "beIN Sports 1",
+  "url": "https://vg162.adcdsd123321.shop/7.m3u8",
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/Vtk2cGI.png"
+ },
+ {
   "name": "Jordan Sport",
   "url": "https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8",
   "group": "قنوات رياضية",
@@ -1494,12 +1518,6 @@
   "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8",
   "group": "قنوات رياضية",
   "logo": "https://i.imgur.com/R1hGX1d.png"
- },
- {
-  "name": "Oman Sports TV",
-  "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
-  "group": "قنوات رياضية",
-  "logo": "https://i.imgur.com/1omi7p8.png"
  },
  {
   "name": "30A Golf Kingdom",
@@ -1790,10 +1808,10 @@
   "logo": "https://i.imgur.com/olQJgm7.png"
  },
  {
-  "name": "Eurosport 2 Czechia",
-  "url": "http://88.212.7.14/live/test_esp2_hevc_tizen/playlist.m3u8",
+  "name": "Eurosport 1 UK",
+  "url": "http://85.117.37.43/eurosport1/index.m3u8",
   "group": "قنوات رياضية",
-  "logo": "https://i.imgur.com/f56dHgR.png"
+  "logo": "https://i.imgur.com/olQJgm7.png"
  },
  {
   "name": "ABC News",
@@ -2419,14 +2437,14 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"
  },
  {
-  "name": "Investigation Discovery (United States)",
-  "url": "http://212.5.144.156:8080/id/index.m3u8",
+  "name": "Investigation Discovery (Russia)",
+  "url": "http://stream.mcquack.net/205/index.m3u8",
   "group": "قنوات عالمية",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"
  },
  {
-  "name": "Investigation Discovery Latin America South",
-  "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/41.m3u8",
+  "name": "Investigation Discovery (United States)",
+  "url": "http://212.5.144.156:8080/id/index.m3u8",
   "group": "قنوات عالمية",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"
  },
