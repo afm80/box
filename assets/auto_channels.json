@@ -71,18 +71,6 @@
   "group": "قنوات عراقية"
  },
  {
-  "name": "AVA Media",
-  "url": "http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV-avc1_2500000=10002,mp4a_128000=20000.m3u8",
-  "group": "قنوات عراقية",
-  "logo": "https://github.com/user-attachments/assets/a9259f18-b9f2-4aa0-86f0-8fba1f343e69"
- },
- {
-  "name": "Avar TV",
-  "url": "https://avr.host247.net/live/AvarTv/playlist.m3u8",
-  "group": "قنوات عراقية",
-  "logo": "https://i.imgur.com/JazFBkW.jpeg"
- },
- {
   "name": "BeitolAbbas TV Channel",
   "url": "https://live.beitolabbas.tv/live/beitolabbastv.m3u8",
   "group": "قنوات عراقية",
@@ -93,18 +81,6 @@
   "url": "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8",
   "group": "قنوات عراقية",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Channel8corp.png/960px-Channel8corp.png"
- },
- {
-  "name": "EmanTv",
-  "url": "https://avr.host247.net/live/emantv/playlist.m3u8",
-  "group": "قنوات عراقية",
-  "logo": "https://i.imgur.com/QmgaPSi.png"
- },
- {
-  "name": "FarmodaTV",
-  "url": "https://avr.host247.net/live/FarmodaTV/playlist.m3u8",
-  "group": "قنوات عراقية",
-  "logo": "https://i.imgur.com/x4KCQlH.png"
  },
  {
   "name": "I News",
@@ -467,12 +443,6 @@
   "logo": "https://i.imgur.com/Ts3RjTV.png"
  },
  {
-  "name": "Al Riyadh Radio",
-  "url": "https://live.kwikmotion.com/sbrksariyadhradiolive/srpksariyadhradio/playlist.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://aloula.faulio.com/storage/mediagallery/37/1a/fullhd_399eddcc4305f34f41c7fab24c3518fab5d55d97.png"
- },
- {
   "name": "Al Saudiya Alaan",
   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-ksa-now/71ed3aa814c643306c0a8bc4fcc7d17f/index.m3u8",
   "group": "قنوات عربية",
@@ -572,12 +542,6 @@
   "url": "https://5aafcc5de91f1.streamlock.net/alkarmatv.com/alkarmaus.smil/playlist.m3u8",
   "group": "قنوات عربية",
   "logo": "https://i.imgur.com/kpuO8m7.png"
- },
- {
-  "name": "Alkhuzama Radio",
-  "url": "https://live.kwikmotion.com/sbrksakhuzamaradiolive/srpkhuzama/playlist.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://shahid.mbc.net/mediaObject/61010cbc-91c5-4ce1-94a4-ed40adadb97b"
  },
  {
   "name": "Almagd TV Middle East",
@@ -776,12 +740,6 @@
   "url": "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8",
   "group": "قنوات عربية",
   "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FRANCE_24/images/LOGO_HD/image.png"
- },
- {
-  "name": "Future TV",
-  "url": "https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/OaqEpwe.png"
  },
  {
   "name": "God Stands Kids Club TV Arabic",
@@ -1328,12 +1286,6 @@
   "logo": "https://i.imgur.com/q7GGALe.png"
  },
  {
-  "name": "Sharjah Radio Quran",
-  "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8",
-  "group": "قنوات عربية",
-  "logo": "https://i.imgur.com/MxZlOvc.png"
- },
- {
   "name": "Sharjah TV",
   "url": "https://live.kwikmotion.com/smc1live/smc1tv.smil/playlist.m3u8",
   "group": "قنوات عربية",
@@ -1380,6 +1332,12 @@
   "url": "https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8",
   "group": "قنوات عربية",
   "logo": "https://i.imgur.com/FjuVuXF.jpeg"
+ },
+ {
+  "name": "Taha TV",
+  "url": "https://stream.starmenajo.com/hls/app/live/ts:fhd.m3u8",
+  "group": "قنوات عربية",
+  "logo": "https://i.imgur.com/hdsrxvX.png"
  },
  {
   "name": "Takbeer TV",
@@ -1506,6 +1464,12 @@
   "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
   "group": "قنوات رياضية",
   "logo": "https://i.imgur.com/l4oX0gf.png"
+ },
+ {
+  "name": "Oman Sports TV",
+  "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/1omi7p8.png"
  },
  {
   "name": "30A Golf Kingdom",
@@ -1712,6 +1676,12 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/960px-ESPN_Premium_logo.svg.png"
  },
  {
+  "name": "Eurosport 1",
+  "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1/live.livx/playlist.m3u8",
+  "group": "قنوات رياضية",
+  "logo": "https://i.imgur.com/olQJgm7.png"
+ },
+ {
   "name": "Eurosport 1 Czechia",
   "url": "http://88.212.7.14/live/test_esp1_hevc_tizen/playlist.m3u8",
   "group": "قنوات رياضية",
@@ -1834,6 +1804,12 @@
  {
   "name": "Al Jazeera English",
   "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
+  "group": "قنوات عالمية",
+  "logo": "https://i.imgur.com/7bRVpnu.png"
+ },
+ {
+  "name": "Al Jazeera English HD",
+  "url": "http://stream.mcquack.net/131/index.m3u8",
   "group": "قنوات عالمية",
   "logo": "https://i.imgur.com/7bRVpnu.png"
  },
